@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <div className="relative overflow-hidden py-20 sm:py-32 bg-primaryBlue">
+    <div className="relative overflow-hidden py-20 sm:py-32 bg-secondaryDarkBlue">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-0 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
@@ -41,7 +41,7 @@ export default function Hero() {
                   </Link>
                 </li>
 
-                <li className="flex items-center space-x-2 bg-secondaryDarkBlue/30 p-3 rounded-l-full">
+                <li className="flex items-center space-x-2 bg-primaryBlue/30 p-3 rounded-l-full">
                   <Link
                     className="text-gray-300 font-bold w-full"
                     href="/programas-tecnicos-laborales#sede-granada"

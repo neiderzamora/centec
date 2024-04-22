@@ -149,7 +149,7 @@ export const CARD = [
   },
   {
     title: "Innovación y Emprendimiento",
-    urlPath: "/inoovacion-y-emprendimiento",
+    urlPath: "/innovacion-y-emprendimiento",
   },
 ];
 

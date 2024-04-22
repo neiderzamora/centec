@@ -7,7 +7,10 @@ import Footer from "@/components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "CENTEC",
+  title: {
+    default: "CENTEC",
+    template: "%s | CENTEC"
+  },
   description:
     "Centro de formación y capacitación empresarial CENTEC, conocimiento y servicio para una formación integral",
 };

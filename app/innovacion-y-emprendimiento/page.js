@@ -1,11 +1,15 @@
+export const metadata = {
+    title: "Innovación y Emprendimiento"
+  }
+
 import Image from "next/image";
 import images from "@/assets/images/dir";
 import { CheckCircleIcon } from "@heroicons/react/24/solid";
 
-export default function Welcome() {
+export default function InnovationEntrepreneurship() {
   return (
     <>
-      <div className="overflow-hidden py-20 sm:py-32 lg:pb-32 xl:pb-36">
+      <div className="overflow-hidden py-20 sm:py-32 lg:pb-32 xl:pb-36 bg-gradient-to-b from-secondaryDarkBlue to-primaryBlue/50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
             <h2 className="text-4xl font-bold tracking-tight text-white">
