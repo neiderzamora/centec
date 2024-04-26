@@ -5,7 +5,7 @@ export default function CampusGranada() {
   return (
     <section
       id="sede-granada"
-      className="overflow-hidden py-20 sm:py-32 bg-primaryBlue"
+      className="overflow-hidden py-20 sm:py-32 bg-white"
     >
       <Campus
         bgLeft="from-secondaryGreen"
@@ -16,6 +16,7 @@ export default function CampusGranada() {
         textColorTime="text-primaryBlue"
         bgTime="bg-white"
         campusName="Sede Granada (Meta)"
+        colorTitle="text-secondaryDarkBlue"
       />
     </section>
   );

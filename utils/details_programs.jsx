@@ -972,9 +972,9 @@ export const ACACIAS_PROGRAMS = [
       "El Programa Técnico Laboral por Competencias en Asistencia Administrativa combina aspectos teóricos y prácticos...",
     titleProgram: "Técnico Laboral en Asistencia Administrativa",
     descriptionProgram:
-      "El Programa Técnico Laboral por Competencias en Asistencia Administrativa combina aspectos teóricos y prácticos con el objetivo de cultivar en los estudiantes conocimientos, destrezas y habilidades. La finalidad es capacitar para desempeñar labores de respaldo administrativo en empresas de diferentes tamaños, ya sean del ámbito público como privado, siendo competentes para llevar a cabo sus funciones siguiendo procedimientos establecidos, directrices, manuales y procesos administrativos.",
+      "Resolución No. 2548 de 2022 de la Secretaria de Educación del Departamento del Meta.",
     recordsProgram:
-      "Resolución No. 1085 de 2024 de la Secretaria de Educación del Departamento del Meta.",
+      "Resolución No. 1084 de 2024 de la Secretaria de Educación del Departamento del Meta.",
     timeProgram: "1.600 horas / 4 semestres",
     objectiveProgram:
       "1. Brindar conocimientos sobre técnicas de gestión administrativa, aplicadas al manejo y asistencia de la oficina, a la planeación, organización y control del trabajo y a la formulación de proyectos que impacten positivamente el desarrollo de las empresas.<br/> 2. Desarrollar la capacidad lingüística y comunicativa para comprender, redactar y transmitir la información empresarial en el idioma inglés y español.<br/> 3. Promover el conocimiento y uso de los recursos tecnológicos.<br/> 4. Ofrecer herramientas teóricas y prácticas para llevar a cabo análisis financiero.<br/> 5. Fortalecer la actitud crítica y creativa, a partir de la investigación y facilitar el análisis para la solución de problemas y toma de decisiones.<br/> 6. Estimular los valores y la formación integral para un desempeño ético, eficiente y responsable en el que hacer laboral y con su entorno.",
@@ -1043,16 +1043,23 @@ export const ACACIAS_PROGRAMS = [
     ],
   },
   {
-    title: "Formación y Atención Integral a la Primera Infancia",
-    description: "El Programa Técnico Laboral por Competencias en Formación y Atención Integral a la Primera Infancia se enfoca..",
-    titleProgram: "Técnico Laboral en Formación y Atención Integral a la Primera Infancia",
-    descriptionProgram: "El Programa Técnico Laboral por Competencias en Formación y Atención Integral a la Primera Infancia se enfoca en la formación integral de técnicos para las instituciones de educación Preescolar o para atender su propio jardín infantil, preparados con un alto perfil pedagógico, basado en competencias para la atención a la primera infancia en actividades de formación, recreación y desarrollo creativo; con capacidad y sentido de servicio a la comunidad, con calidad humana, pensamiento creativo, actitud investigativa, capacidad para establecer relaciones interpersonales y orientar correctamente a los niños durante la primera infancia.",
-    recordsProgram: "Resolución No. 1085 de 2024 de la Secretaria de Educación del Departamento del Meta.",
+    title: "Atención Integral a la Primera Infancia",
+    description:
+      "El Programa Técnico Laboral por Competencias en Formación y Atención Integral a la Primera Infancia se enfoca..",
+    titleProgram: "Técnico Laboral en Atención Integral a la Primera Infancia",
+    descriptionProgram:
+      "El Programa Técnico Laboral por Competencias en Formación y Atención Integral a la Primera Infancia se enfoca en la formación integral de técnicos para las instituciones de educación Preescolar o para atender su propio jardín infantil, preparados con un alto perfil pedagógico, basado en competencias para la atención a la primera infancia en actividades de formación, recreación y desarrollo creativo; con capacidad y sentido de servicio a la comunidad, con calidad humana, pensamiento creativo, actitud investigativa, capacidad para establecer relaciones interpersonales y orientar correctamente a los niños durante la primera infancia.",
+    recordsProgram:
+      "Resolución No. 1084 de 2024 de la Secretaria de Educación del Departamento del Meta.",
     timeProgram: "1.600 horas / 4 semestres",
-    objectiveProgram: "1. Formar a los estudiantes con habilidades pedagógicas sólidas para proporcionar una atención educativa de calidad a niños en la etapa preescolar, centrándose en actividades de formación, recreación y desarrollo creativo. <br/>2. Promover el pensamiento creativo entre los estudiantes, capacitándolos para diseñar y llevar a cabo actividades que estimulen el desarrollo cognitivo, emocional y social de los niños preescolares. <br/>3. Inculcar en los estudiantes valores de calidad humana y un fuerte sentido de servicio a la comunidad, fomentando actitudes éticas y responsables en su interacción con niños, padres y colegas. <br/>4. Dotar a los estudiantes con habilidades sólidas para establecer relaciones interpersonales efectivas tanto con niños preescolares como con otros profesionales de la educación, padres y miembros de la comunidad. <br/>5. Estimular la iniciativa emprendedora de los estudiantes, brindándoles las herramientas necesarias para gestionar y administrar su propio jardín infantil, si así lo desean. <br/>6. Fortalecer las competencias comunicativas de los estudiantes, permitiéndoles comunicarse efectivamente con niños, padres y colegas, facilitando así una colaboración constructiva en el entorno educativo.",
-    graduateProfile: "El egresado del programa Técnico Laboral en Formación y Atención Integral a la Primera Infancia de CENTEC, se destaca por su sólida formación pedagógica y habilidades para brindar una atención educativa de calidad a la primera infancia. Con un enfoque en la creatividad, calidad humana y sentido de servicio, es capaz de establecer relaciones efectivas, adaptarse a la diversidad y, si lo desea, emprender su propio jardín infantil. Su ética y compromiso contribuyen al desarrollo integral y bienestar de los niños preescolares y la comunidad educativa.",
-    cetification: "Técnico Laboral por Competencias en Formación y Atención Integral a la Primera Infancia.",
-    occupationalProfile: "Podrá desempeñarse como auxiliar docente de preescolar, auxiliar docente de guardería infantil, auxiliar jardín infantil, asistente de preescolar, organizador de actividades didácticas para niños, Institutriz, asesor en la elaboración de tareas, cuidar y orientar niños, montar su propio jardín o guardería, Madre comunitaria.",
+    objectiveProgram:
+      "1. Formar a los estudiantes con habilidades pedagógicas sólidas para proporcionar una atención educativa de calidad a niños en la etapa preescolar, centrándose en actividades de formación, recreación y desarrollo creativo. <br/>2. Promover el pensamiento creativo entre los estudiantes, capacitándolos para diseñar y llevar a cabo actividades que estimulen el desarrollo cognitivo, emocional y social de los niños preescolares. <br/>3. Inculcar en los estudiantes valores de calidad humana y un fuerte sentido de servicio a la comunidad, fomentando actitudes éticas y responsables en su interacción con niños, padres y colegas. <br/>4. Dotar a los estudiantes con habilidades sólidas para establecer relaciones interpersonales efectivas tanto con niños preescolares como con otros profesionales de la educación, padres y miembros de la comunidad. <br/>5. Estimular la iniciativa emprendedora de los estudiantes, brindándoles las herramientas necesarias para gestionar y administrar su propio jardín infantil, si así lo desean. <br/>6. Fortalecer las competencias comunicativas de los estudiantes, permitiéndoles comunicarse efectivamente con niños, padres y colegas, facilitando así una colaboración constructiva en el entorno educativo.",
+    graduateProfile:
+      "El egresado del programa Técnico Laboral en Formación y Atención Integral a la Primera Infancia de CENTEC, se destaca por su sólida formación pedagógica y habilidades para brindar una atención educativa de calidad a la primera infancia. Con un enfoque en la creatividad, calidad humana y sentido de servicio, es capaz de establecer relaciones efectivas, adaptarse a la diversidad y, si lo desea, emprender su propio jardín infantil. Su ética y compromiso contribuyen al desarrollo integral y bienestar de los niños preescolares y la comunidad educativa.",
+    cetification:
+      "Técnico Laboral por Competencias en Atención Integral a la Primera Infancia.",
+    occupationalProfile:
+      "Podrá desempeñarse como auxiliar docente de preescolar, auxiliar docente de guardería infantil, auxiliar jardín infantil, asistente de preescolar, organizador de actividades didácticas para niños, Institutriz, asesor en la elaboración de tareas, cuidar y orientar niños, montar su propio jardín o guardería, Madre comunitaria.",
     loginRequirements:
       "Edad mínima: 14 años.<br/> Nivel de escolaridad: A partir de 10° grado.<br/> Documentación Requerida:<br/> - Copia del documento de identificación al 150%.<br/> - Copia del diploma de bachiller/acta de grado o certificado de estudio si está cursando 10°. <br/> - Fotocopia de un recibo de servicio público.<br/> - Formato de inscripción diligenciado.",
     studyPlan: [
@@ -1066,7 +1073,7 @@ export const ACACIAS_PROGRAMS = [
           "Cultura Física",
           "Informática Aplicada",
           "Fundamentos de Pedagogía",
-          "Fundamentos de la Psicología"
+          "Fundamentos de la Psicología",
         ],
       },
       {
@@ -1079,7 +1086,7 @@ export const ACACIAS_PROGRAMS = [
           "Fundamentos del Lenguaje",
           "Salud Nutricional en la Infancia",
           "Modelos Pedagógicos",
-          "Psicología del Aprendizaje"
+          "Psicología del Aprendizaje",
         ],
       },
       {
@@ -1093,7 +1100,7 @@ export const ACACIAS_PROGRAMS = [
           "Ingles I",
           "Cultura Ambiental",
           "Teoria y Diseño curricular",
-          "Psicología Social y Familiar"
+          "Psicología Social y Familiar",
         ],
       },
       {
@@ -1106,22 +1113,29 @@ export const ACACIAS_PROGRAMS = [
           "Salud Ocupacional",
           "Ingles II",
           "Proyecto Educativo Institucional",
-          "Psicomentría"
+          "Psicomentría",
         ],
       },
     ],
   },
   {
     title: "Producción de Hidrocarburos",
-    description: "El Programa Técnico Laboral por Competencias en Producción de Hidrocarburos de CENTEC está orientado...",
+    description:
+      "El Programa Técnico Laboral por Competencias en Producción de Hidrocarburos de CENTEC está orientado...",
     titleProgram: "Técnico Laboral en Producción de Hidrocarburos",
-    descriptionProgram: "El Programa Técnico Laboral por Competencias en Producción de Hidrocarburos de CENTEC está orientado a formar técnicos altamente capacitados en el campo de la industria petrolera y gasífera. Nuestro programa ofrece una sólida formación en los procesos de perforación y producción de pozos de petróleo y gas, equipando a nuestros estudiantes con las habilidades técnicas y prácticas necesarias para destacarse en este apasionante sector.",
-    recordsProgram: "Resolución No. 1085 de 2024 de la Secretaria de Educación del Departamento del Meta.",
+    descriptionProgram:
+      "El Programa Técnico Laboral por Competencias en Producción de Hidrocarburos de CENTEC está orientado a formar técnicos altamente capacitados en el campo de la industria petrolera y gasífera. Nuestro programa ofrece una sólida formación en los procesos de perforación y producción de pozos de petróleo y gas, equipando a nuestros estudiantes con las habilidades técnicas y prácticas necesarias para destacarse en este apasionante sector.",
+    recordsProgram:
+      "Resolución No. 1084 de 2024 de la Secretaria de Educación del Departamento del Meta.",
     timeProgram: "1.580 horas / 4 semestres",
-    objectiveProgram: "1. Proporcionar a los estudiantes un conocimiento profundo de los procesos involucrados en la perforación de pozos de petróleo y gas, desde la planificación hasta la finalización.<br/> 2. Familiarizar a los estudiantes con las herramientas especializadas utilizadas en la perforación, asegurando un entendimiento práctico y teórico de su funcionamiento. <br/>3. Desarrollar la capacidad de los estudiantes para identificar y abordar eficazmente los problemas y desafíos que puedan surgir durante el proceso de perforación.<br/> 4. Formar a los estudiantes en competencias esenciales, ciudadanas y laborales generales y específicas relacionadas con su oficio, fomentando un perfil integral y versátil.<br/> 5. Proyectar un desarrollo en los estudiantes que les permita demostrar desempeños altamente competitivos en el ámbito de la perforación de pozos de petróleo y gas.<br/> 6. Desarrollar habilidades de liderazgo multidisciplinario, capacitando a los estudiantes para asumir roles de liderazgo en equipos de trabajo diversificados.<br/> 7. Cultivar valores éticos y sociales, promoviendo el demostrar buenas condiciones humanas en el entorno laboral y social.",
-    graduateProfile: "El egresado del Programa Técnico Laboral por Competencias en Producción de Hidrocarburos de CENTEC tendrá un perfil integral y altamente especializado. Dotado de un práctico conocimiento en los procesos de perforación y el manejo de herramientas especializadas, el egresado destaca por su habilidad para identificar y resolver problemas asociados al campo. Su competencia técnica especializada se complementa con habilidades de liderazgo multidisciplinario, permitiéndole coordinar equipos diversificados con eficacia. Su desempeño altamente competitivo se refleja en la eficiencia y calidad de los proyectos de perforación. Además, su adaptabilidad, proyección personal y ubicación exitosa en la industria se ven respaldadas por valores éticos y buenas condiciones humanas, consolidando un profesional preparado para liderar y contribuir positivamente al entorno laboral y social.",
-    cetification: "Técnico Laboral por Competencias en Producción de Hidrocarburos.",
-    occupationalProfile: "El Técnico Laboral por Competencias en Producción de Hidrocarburos podrá desempeñarse como: Perforador, pozo de petróleo y gas, Operador, torre - perforación de petróleo y gas, Capataz, perforación de pozos de petróleo y gas, Encuellador de pozos de petróleo, Operador prueba de pozo, Manilero de perforación, Asistente de perforación.",
+    objectiveProgram:
+      "1. Proporcionar a los estudiantes un conocimiento profundo de los procesos involucrados en la perforación de pozos de petróleo y gas, desde la planificación hasta la finalización.<br/> 2. Familiarizar a los estudiantes con las herramientas especializadas utilizadas en la perforación, asegurando un entendimiento práctico y teórico de su funcionamiento. <br/>3. Desarrollar la capacidad de los estudiantes para identificar y abordar eficazmente los problemas y desafíos que puedan surgir durante el proceso de perforación.<br/> 4. Formar a los estudiantes en competencias esenciales, ciudadanas y laborales generales y específicas relacionadas con su oficio, fomentando un perfil integral y versátil.<br/> 5. Proyectar un desarrollo en los estudiantes que les permita demostrar desempeños altamente competitivos en el ámbito de la perforación de pozos de petróleo y gas.<br/> 6. Desarrollar habilidades de liderazgo multidisciplinario, capacitando a los estudiantes para asumir roles de liderazgo en equipos de trabajo diversificados.<br/> 7. Cultivar valores éticos y sociales, promoviendo el demostrar buenas condiciones humanas en el entorno laboral y social.",
+    graduateProfile:
+      "El egresado del Programa Técnico Laboral por Competencias en Producción de Hidrocarburos de CENTEC tendrá un perfil integral y altamente especializado. Dotado de un práctico conocimiento en los procesos de perforación y el manejo de herramientas especializadas, el egresado destaca por su habilidad para identificar y resolver problemas asociados al campo. Su competencia técnica especializada se complementa con habilidades de liderazgo multidisciplinario, permitiéndole coordinar equipos diversificados con eficacia. Su desempeño altamente competitivo se refleja en la eficiencia y calidad de los proyectos de perforación. Además, su adaptabilidad, proyección personal y ubicación exitosa en la industria se ven respaldadas por valores éticos y buenas condiciones humanas, consolidando un profesional preparado para liderar y contribuir positivamente al entorno laboral y social.",
+    cetification:
+      "Técnico Laboral por Competencias en Producción de Hidrocarburos.",
+    occupationalProfile:
+      "El Técnico Laboral por Competencias en Producción de Hidrocarburos podrá desempeñarse como: Perforador, pozo de petróleo y gas, Operador, torre - perforación de petróleo y gas, Capataz, perforación de pozos de petróleo y gas, Encuellador de pozos de petróleo, Operador prueba de pozo, Manilero de perforación, Asistente de perforación.",
     loginRequirements:
       "Edad mínima: 14 años.<br/> Nivel de escolaridad: A partir de 10° grado.<br/> Documentación Requerida:<br/> - Copia del documento de identificación al 150%.<br/> - Copia del diploma de bachiller/acta de grado o certificado de estudio si está cursando 10°. <br/> - Fotocopia de un recibo de servicio público.<br/> - Formato de inscripción diligenciado.",
     studyPlan: [
@@ -1177,15 +1191,23 @@ export const ACACIAS_PROGRAMS = [
   },
   {
     title: "Preparación Física, Recreación y Deportes",
-    description: "El Programa Técnico Laboral en Preparación Física, Recreación y Deportes de CENTEC se orienta hacia...",
-    titleProgram: "Técnico Laboral en Preparación Física, Recreación y Deportes",
-    descriptionProgram: "El Programa Técnico Laboral en Preparación Física, Recreación y Deportes de CENTEC se orienta hacia la formación especializada de trabajadores que desempeñan roles clave en el sector recreativo y deportivo. Diseñado para aquellos involucrados en la organización y dirección de excursiones, actividades recreativas, deportivas y de integración, este programa ofrece una estructura curricular enfocada en el desarrollo de competencias laborales específicas. Dirigido tanto a nuevos recursos humanos como al personal ya vinculado en empresas del ámbito de la preparación física, recreación y deportes, este programa proporciona los conocimientos y habilidades necesarios para sobresalir en un entorno dinámico y exigente.",
-    recordsProgram: "Resolución No. 1085 de 2024 de la Secretaria de Educación del Departamento del Meta.",
+    description:
+      "El Programa Técnico Laboral en Preparación Física, Recreación y Deportes de CENTEC se orienta hacia...",
+    titleProgram:
+      "Técnico Laboral en Preparación Física, Recreación y Deportes",
+    descriptionProgram:
+      "El Programa Técnico Laboral en Preparación Física, Recreación y Deportes de CENTEC se orienta hacia la formación especializada de trabajadores que desempeñan roles clave en el sector recreativo y deportivo. Diseñado para aquellos involucrados en la organización y dirección de excursiones, actividades recreativas, deportivas y de integración, este programa ofrece una estructura curricular enfocada en el desarrollo de competencias laborales específicas. Dirigido tanto a nuevos recursos humanos como al personal ya vinculado en empresas del ámbito de la preparación física, recreación y deportes, este programa proporciona los conocimientos y habilidades necesarios para sobresalir en un entorno dinámico y exigente.",
+    recordsProgram:
+      "Resolución No. 1084 de 2024 de la Secretaria de Educación del Departamento del Meta.",
     timeProgram: "1.260 horas / 3 semestres",
-    objectiveProgram: "1. Formar personal capacitado en la preparación física, recreación y deportes, dotándolos de conocimientos teóricos y prácticos necesarios para desempeñarse con excelencia en el sector.<br/> 2. Desarrollar competencias laborales específicas que permitan a los participantes planificar, organizar y dirigir actividades recreativas, deportivas y de integración de manera efectiva.<br/>3. Proporcionar herramientas y técnicas para el diseño y ejecución de programas de entrenamiento físico y deportivo adaptados a diferentes grupos de población y contextos.<br/> 4. Fomentar el liderazgo, la ética y el trabajo en equipo entre los participantes, preparándolos para enfrentar los desafíos y exigencias del campo laboral.<br/> 5. Facilitar la inserción laboral de los egresados en clubes deportivos, centros vacacionales, empresas de recreación y entretenimiento, entre otros, mediante la adquisición de habilidades demandadas por el mercado laboral.<br/> 6. Promover la actualización constante y el aprendizaje continuo, incentivando a los participantes a mantenerse al tanto de las tendencias y avances en el ámbito de la preparación física, recreación y deportes.",
-    graduateProfile: "El egresado del Programa Técnico Laboral en Preparación Física, Recreación y Deportes de CENTEC posee un sólido dominio de conocimientos teóricos y prácticos en preparación física, recreación y deportes, demostrando habilidades para planificar, organizar y dirigir actividades recreativas y deportivas adaptadas a diversos contextos. Con destrezas en liderazgo, comunicación efectiva y trabajo en equipo, así como una actitud ética y profesional, el egresado es capaz de diseñar y ejecutar programas de entrenamiento físico y deportivo, resolver problemas y tomar decisiones de manera eficiente, mostrando una disposición constante para el aprendizaje y la actualización en este campo laboral dinámico y en evolución.",
-    cetification: "Técnico Laboral por Competencias en Preparación Física, Recreación y Deportes.",
-    occupationalProfile: "El egresado del Programa Técnico Laboral por Competencias en Preparación Física, Recreación y Deportes de CENTEC incluye diversas oportunidades laborales en el sector recreativo y deportivo. Puede desempeñarse como instructor o entrenador en clubes deportivos, centros vacacionales, empresas de recreacióny entretenimiento, coordinando y dirigiendo actividades recreativas, deportivas y de integración. Además, puede trabajar en la planificación y ejecución de programas de entrenamiento físico, tanto en el ámbito comunitario como en instituciones educativas. Asimismo, puede encontrar oportunidades laborales en la organización de eventos deportivos, gestión de instalaciones deportivas o como promotor de estilos de vida saludables en programas de salud pública o privada. Su formación técnica y competencias específicas le permiten adaptarse a diversas demandas laborales y contribuir al bienestar y desarrollo físico de la comunidad.",
+    objectiveProgram:
+      "1. Formar personal capacitado en la preparación física, recreación y deportes, dotándolos de conocimientos teóricos y prácticos necesarios para desempeñarse con excelencia en el sector.<br/> 2. Desarrollar competencias laborales específicas que permitan a los participantes planificar, organizar y dirigir actividades recreativas, deportivas y de integración de manera efectiva.<br/>3. Proporcionar herramientas y técnicas para el diseño y ejecución de programas de entrenamiento físico y deportivo adaptados a diferentes grupos de población y contextos.<br/> 4. Fomentar el liderazgo, la ética y el trabajo en equipo entre los participantes, preparándolos para enfrentar los desafíos y exigencias del campo laboral.<br/> 5. Facilitar la inserción laboral de los egresados en clubes deportivos, centros vacacionales, empresas de recreación y entretenimiento, entre otros, mediante la adquisición de habilidades demandadas por el mercado laboral.<br/> 6. Promover la actualización constante y el aprendizaje continuo, incentivando a los participantes a mantenerse al tanto de las tendencias y avances en el ámbito de la preparación física, recreación y deportes.",
+    graduateProfile:
+      "El egresado del Programa Técnico Laboral en Preparación Física, Recreación y Deportes de CENTEC posee un sólido dominio de conocimientos teóricos y prácticos en preparación física, recreación y deportes, demostrando habilidades para planificar, organizar y dirigir actividades recreativas y deportivas adaptadas a diversos contextos. Con destrezas en liderazgo, comunicación efectiva y trabajo en equipo, así como una actitud ética y profesional, el egresado es capaz de diseñar y ejecutar programas de entrenamiento físico y deportivo, resolver problemas y tomar decisiones de manera eficiente, mostrando una disposición constante para el aprendizaje y la actualización en este campo laboral dinámico y en evolución.",
+    cetification:
+      "Técnico Laboral por Competencias en Preparación Física y Deportes",
+    occupationalProfile:
+      "El egresado del Programa Técnico Laboral por Competencias en Preparación Física, Recreación y Deportes de CENTEC incluye diversas oportunidades laborales en el sector recreativo y deportivo. Puede desempeñarse como instructor o entrenador en clubes deportivos, centros vacacionales, empresas de recreacióny entretenimiento, coordinando y dirigiendo actividades recreativas, deportivas y de integración. Además, puede trabajar en la planificación y ejecución de programas de entrenamiento físico, tanto en el ámbito comunitario como en instituciones educativas. Asimismo, puede encontrar oportunidades laborales en la organización de eventos deportivos, gestión de instalaciones deportivas o como promotor de estilos de vida saludables en programas de salud pública o privada. Su formación técnica y competencias específicas le permiten adaptarse a diversas demandas laborales y contribuir al bienestar y desarrollo físico de la comunidad.",
     loginRequirements:
       "Edad mínima: 14 años.<br/> Nivel de escolaridad: A partir de 10° grado.<br/> Documentación Requerida:<br/> - Copia del documento de identificación al 150%.<br/> - Copia del diploma de bachiller/acta de grado o certificado de estudio si está cursando 10°. <br/> - Fotocopia de un recibo de servicio público.<br/> - Formato de inscripción diligenciado.",
     studyPlan: [
@@ -1211,7 +1233,7 @@ export const ACACIAS_PROGRAMS = [
           "Desarrollo y Aprendizaje Motor",
           "Entrenamiento Deportivo",
           "Legislación Deportiva",
-          "Salud Ocupacional"
+          "Salud Ocupacional",
         ],
       },
       {
@@ -1224,22 +1246,28 @@ export const ACACIAS_PROGRAMS = [
           "Gestión de Actividades Recreativas y de Tiempo Libre",
           "Arbitraje Deportivo",
           "Gestión Ambiental",
-          "Marketing y Proyectos Deportivos"
+          "Marketing y Proyectos Deportivos",
         ],
       },
     ],
   },
   {
-    title: "Producción Agropecuaria",
-    description: "El Programa Técnico Laboral en Producción Agropecuaria de CENTEC está orientado hacia la...",
-    titleProgram: "Técnico Laboral en Producción Agropecuaria",
-    descriptionProgram: "El Programa Técnico Laboral en Producción Agropecuaria de CENTEC está orientado hacia la capacitación y formación de técnicos altamente cualificados para el sector agropecuario. Diseñado con el objetivo de satisfacer las demandas y expectativas del mercado laboral, este programa brinda a los participantes las habilidades y conocimientos necesarios para contribuir al desarrollo económico, social y tecnológico en el ámbito agrícola y ganadero. Al enfocarse en las tecnologías de producción industrial, el programa prepara a los aprendices para enfrentar los desafíos y aprovechar las oportunidades en un entorno agropecuario en constante evolución.",
-    recordsProgram: "Resolución No. 1085 de 2024 de la Secretaria de Educación del Departamento del Meta.",
+    title: "Producción Agrícola",
+    description:
+      "El Programa Técnico Laboral en Producción Agropecuaria de CENTEC está orientado hacia la...",
+    titleProgram: "Técnico Laboral en Producción Agrícola",
+    descriptionProgram:
+      "El Programa Técnico Laboral en Producción Agrícola de CENTEC está orientado hacia la capacitación y formación de técnicos altamente cualificados para el sector agrícola. Está diseñado con un enfoque práctico y orientado a las demandas del mercado laboral, este programa ofrece a los estudiantes las habilidades y conocimientos necesarios para destacarse en el sector agrícola. Desde técnicas de cultivo innovadoras hasta la gestión eficiente de recursos, nuestros estudiantes se gradúan listos para contribuir de manera significativa al desarrollo agrícola sostenible y al crecimiento económico de sus comunidades.",
+    recordsProgram:
+      "Resolución No. 1084 de 2024 de la Secretaria de Educación del Departamento del Meta.",
     timeProgram: "1.200 horas / 3 semestres",
-    objectiveProgram: "1. Formar técnicos con sólidas competencias técnicas y conocimientos especializados en producción agropecuaria, que les permitan desempeñarse eficientemente en diversas áreas del sector agrícola y ganadero. <br/>2. Proporcionar una formación integral que abarque aspectos teóricos y prácticos de la producción agropecuaria, incluyendo técnicas innovadoras y tecnologías de vanguardia aplicadas a la industria.<br/> 3. Desarrollar habilidades específicas en los participantes para la gestión eficaz de recursos naturales, el manejo de cultivos y/o animales, así como la implementación de prácticas sostenibles y responsables en el ámbito agropecuario.<br/> 4. Fomentar el espíritu emprendedor y la capacidad de innovación en los estudiantes, preparándolos para identificar oportunidades de negocio, desarrollar proyectos productivos y contribuir al crecimiento y desarrollo del sector agropecuario.<br/> 5. Promover valores éticos y responsabilidad social en la práctica laboral, incentivando el respeto por el medio ambiente, el bienestar animal y la equidad en las relaciones laborales dentro del ámbito agropecuario.<br/> 6. Facilitar la inserción laboral de los egresados en empresas agroindustriales, cooperativas agrícolas, instituciones gubernamentales relacionadas con el sector, o como emprendedores independientes, mediante la adquisición de habilidades y competencias demandadas por el mercado laboral en este campo.",
-    graduateProfile: "El egresado del Programa Técnico Laboral en Producción Agropecuaria de CENTEC se distingue por su sólido dominio de conocimientos técnicos y prácticos en producción agrícola y ganadera, demostrando habilidades para planificar, ejecutar y optimizar procesos agropecuarios de manera eficiente y sostenible. Con capacidad para resolver problemas, trabajar en equipo y comunicarse efectivamente, este técnico muestra una actitud proactiva, emprendedora y ética, comprometido con el desarrollo económico, social y ambiental del sector. Su disposición para la mejora continua y la actualización constante le permite adaptarse a las demandas cambiantes del mercado y contribuir de manera significativa al crecimiento y la innovación en la producción agropecuaria.",
-    cetification: "Técnico Laboral por Competencias en Producción Agropecuaria.",
-    occupationalProfile: "El egresado del Programa Técnico Laboral en Producción Agropecuaria de CENTEC está preparado para desempeñarse en diversos ámbitos del sector agropecuario, ya sea en empresas agrícolas, agroindustriales, cooperativas o instituciones gubernamentales relacionadas. Su formación le capacita para ocupar cargos como técnico en producción agrícola o ganadera, supervisor de procesos agropecuarios, asesor técnico en empresas del rubro, o incluso emprendedor independiente, gestionando su propio negocio agropecuario. Con habilidades técnicas, capacidad de liderazgo, y compromiso con la sostenibilidad y la innovación, el egresado contribuye al desarrollo económico y social del país a través del aprovechamiento eficiente de los recursos y la implementación de prácticas agrícolas y ganaderas responsables.",
+    objectiveProgram:
+      "1. Capacitar a los estudiantes en técnicas agrícolas modernas y sostenibles, brindándoles las habilidades necesarias para gestionar eficientemente la producción agrícola. <br/> 2. Desarrollar competencias prácticas en el manejo de cultivos, control de plagas y enfermedades, así como en el uso adecuado de tecnologías agrícolas y herramientas especializadas.<br/> 3. Fomentar el espíritu emprendedor entre los estudiantes, proporcionándoles conocimientos sobre la planificación y gestión de proyectos agrícolas, así como sobre la comercialización de productos agrícolas.<br/> 4. Promover la conciencia ambiental y la práctica de métodos agrícolas sostenibles que contribuyan a la conservación de los recursos naturales y al desarrollo rural.<br/> 5. Facilitar la inserción laboral de los egresados en el sector agrícola, mediante la formación de profesionales competentes y altamente calificados, capaces de satisfacer las demandas del mercado laboral.",
+    graduateProfile:
+      "El egresado del Programa Técnico Laboral en Producción Agrícola de CENTEC se distingue por su sólido dominio de conocimientos técnicos y prácticos en producción agrícola, demostrando habilidades para planificar, ejecutar y optimizar procesos agrícolas de manera eficiente y sostenible. Con capacidad para resolver problemas, trabajar en equipo y comunicarse efectivamente, este técnico muestra una actitud proactiva, emprendedora y ética, comprometido con el desarrollo económico, social y ambiental del sector. Su disposición para la mejora continua y la actualización constante le permite adaptarse a las demandas cambiantes del mercado y contribuir de manera significativa al crecimiento y la innovación en la producción agrícola.",
+    cetification: "Técnico Laboral por Competencias en Producción Agrícola.",
+    occupationalProfile:
+      "El egresado del Programa Técnico Laboral en Producción Agrícola de CENTEC está altamente calificado para desempeñarse en una amplia gama de roles dentro del sector agrícola, ya sea en empresas agrícolas, agroindustriales, cooperativas o instituciones gubernamentales afines. Su formación integral le prepara para ocupar posiciones como técnico en producción agrícola, supervisando y optimizando procesos para maximizar rendimientos y calidad. Además, puede ejercer como asesor técnico en empresas del rubro, brindando su experiencia para mejorar la eficiencia y rentabilidad de las operaciones. Asimismo, cuenta con las habilidades necesarias para emprender su propio negocio agrícola, liderando iniciativas innovadoras y sostenibles que contribuyan al desarrollo económico y social del país. Con un enfoque centrado en la sostenibilidad y la innovación, el egresado se convierte en un agente de cambio, promoviendo prácticas responsables que garantizan el uso eficiente de los recursos y el bienestar de las comunidades agrícolas.",
     loginRequirements:
       "Edad mínima: 14 años.<br/> Nivel de escolaridad: A partir de 10° grado.<br/> Documentación Requerida:<br/> - Copia del documento de identificación al 150%.<br/> - Copia del diploma de bachiller/acta de grado o certificado de estudio si está cursando 10°. <br/> - Fotocopia de un recibo de servicio público.<br/> - Formato de inscripción diligenciado.",
     studyPlan: [
@@ -1249,10 +1277,10 @@ export const ACACIAS_PROGRAMS = [
           "Técnicas de Estudio",
           "Matemáticas para la productividad",
           "Fundamentos Administrativos",
-          "Introducción a la Producción Agropecuaria",
+          "Introducción a la Producción Agrícola",
           "Medio Ambiente y Producción Agroecológica",
           "Adecuación, Manejo y Conservación de Suelos",
-          "Nutricion Animal",
+          "Control Fitosanitario",
           "Informática Aplicada",
         ],
       },
@@ -1261,13 +1289,12 @@ export const ACACIAS_PROGRAMS = [
         subject: [
           "Ingles Aplicado",
           "Economía",
-          "Mercadeo Agropecuario",
-          "Diseño y Sistema Productivo Agroindustrial",
+          "Mercadeo Agrícola",
+          "Diseño del Sistema Productivo Agroindustrial",
           "Maquinaria Agrícola",
-          "Sanidad Animal",
+          "Nutrición Vegetal",
           "Seguridad Industrial y Salud Ocupacional",
           "Ética y Transformación del Entorno",
-          
         ],
       },
       {
@@ -1277,24 +1304,31 @@ export const ACACIAS_PROGRAMS = [
           "Fundamentos Contables y Financieros",
           "Gestión y Creación Empresarial",
           "Proyectos",
-          "Administración del Recurso Hídrico Agropecuario",
+          "Administración del Recurso Hídrico Agrícola",
           "Manejo de cosechas de Perecederos y granos",
-          "Sistema Reproductivo de la Explotación Pecuaria",
+          "Práctica Agrícola Sostenible e Integral",
+          "Gestión Ambiental",
         ],
       },
     ],
   },
   {
-    title: "Técnico Laboral en Soldadura",
-    description: "El Programa Técnico Laboral por Competencias en Soldadura de CENTEC se orienta hacia la formación...",
+    title: "Soldador/ar",
+    description:
+      "El Programa Técnico Laboral por Competencias en Soldadura de CENTEC se orienta hacia la formación...",
     titleProgram: "Técnico Laboral en Soldadura",
-    descriptionProgram: "El Programa Técnico Laboral por Competencias en Soldadura de CENTEC se orienta hacia la formación de soldadores altamente capacitados y calificados, conscientes de la complejidad y la importancia de su oficio en la fabricación, montaje y mantenimiento de elementos soldados. Diseñado para proporcionar una sólida base tanto teórica como práctica, el programa prepara al personal para manejar con destreza los procesos, procedimientos y materiales involucrados en la soldadura, así como para interpretar planos de fabricación y elaborar informes de producción. Con un enfoque en la seguridad y la calidad, el programa busca dotar a los participantes de las habilidades necesarias para alcanzar y mantener un alto nivel de excelencia en la realización de uniones soldadas, contribuyendo así al desarrollo y la eficiencia en diversos sectores industriales.",
-    recordsProgram: "Resolución No. 1085 de 2024 de la Secretaria de Educación del Departamento del Meta.",
+    descriptionProgram:
+      "El Programa Técnico Laboral por Competencias en Soldadura de CENTEC se orienta hacia la formación de soldadores altamente capacitados y calificados, conscientes de la complejidad y la importancia de su oficio en la fabricación, montaje y mantenimiento de elementos soldados. Diseñado para proporcionar una sólida base tanto teórica como práctica, el programa prepara al personal para manejar con destreza los procesos, procedimientos y materiales involucrados en la soldadura, así como para interpretar planos de fabricación y elaborar informes de producción. Con un enfoque en la seguridad y la calidad, el programa busca dotar a los participantes de las habilidades necesarias para alcanzar y mantener un alto nivel de excelencia en la realización de uniones soldadas, contribuyendo así al desarrollo y la eficiencia en diversos sectores industriales.",
+    recordsProgram:
+      "Resolución No. 1084 de 2024 de la Secretaria de Educación del Departamento del Meta.",
     timeProgram: "1.200 horas / 3 semestres",
-    objectiveProgram: "1. Capacitar a los estudiantes en los aspectos teóricos y prácticos de la soldadura, proporcionándoles los conocimientos necesarios sobre procesos de soldadura, materiales, técnicas y prácticas seguras.<br/> 2. Desarrollar habilidades prácticas en los estudiantes para la fabricación, montaje y mantenimiento de elementos soldados, permitiéndoles realizar uniones soldadas de alta calidad y cumpliendo con los estándares industriales.<br/> 3. Formar soldadores competentes en la interpretación de planos de fabricación y en la preparación de elementos metálicos, garantizando la precisión y la adecuación de las uniones soldadas a las especificaciones técnicas requeridas. <br/>4. Promover la adopción de prácticas seguras y éticas en el trabajo de soldadura, conscientizando a los estudiantes sobre la importancia de la seguridad personal, la protección del medio ambiente y el cumplimiento de normativas laborales y de calidad. <br/>5. Facilitar la inserción laboral de los egresados en empresas del sector industrial, metalúrgico, de construcción, entre otros, mediante la adquisición de habilidades y competencias demandadas por el mercado laboral en el ámbito de la soldadura.<br/> 6. Fomentar el desarrollo laboral continuo de los graduados, incentivándolos a mantenerse actualizados en nuevas tecnologías, procesos de soldadura y estándares de calidad, contribuyendo así a su crecimiento y proyección en el campo laboral.",
-    graduateProfile: "Los egresados del Técnico por Competencias Laborales en Soldadura de CENTEC, está capacitado para trabajar en una línea de ensamble, construcción y reparación de maquinarias, estructuras y otros, realizando uniones y el rellenado de metales además de el corte de materiales (ferrosos y no ferrosos), tomando como referencia una orden de trabajo, una muestra o un plano de fabricación. Establece las maquinas, selecciona el proceso y los equipos necesarios para soldar y/o cortar, para la unión y/o el rellenado de metales y el corte de materiales.",
+    objectiveProgram:
+      "1. Capacitar a los estudiantes en los aspectos teóricos y prácticos de la soldadura, proporcionándoles los conocimientos necesarios sobre procesos de soldadura, materiales, técnicas y prácticas seguras.<br/> 2. Desarrollar habilidades prácticas en los estudiantes para la fabricación, montaje y mantenimiento de elementos soldados, permitiéndoles realizar uniones soldadas de alta calidad y cumpliendo con los estándares industriales.<br/> 3. Formar soldadores competentes en la interpretación de planos de fabricación y en la preparación de elementos metálicos, garantizando la precisión y la adecuación de las uniones soldadas a las especificaciones técnicas requeridas. <br/>4. Promover la adopción de prácticas seguras y éticas en el trabajo de soldadura, conscientizando a los estudiantes sobre la importancia de la seguridad personal, la protección del medio ambiente y el cumplimiento de normativas laborales y de calidad. <br/>5. Facilitar la inserción laboral de los egresados en empresas del sector industrial, metalúrgico, de construcción, entre otros, mediante la adquisición de habilidades y competencias demandadas por el mercado laboral en el ámbito de la soldadura.<br/> 6. Fomentar el desarrollo laboral continuo de los graduados, incentivándolos a mantenerse actualizados en nuevas tecnologías, procesos de soldadura y estándares de calidad, contribuyendo así a su crecimiento y proyección en el campo laboral.",
+    graduateProfile:
+      "Los egresados del Técnico por Competencias Laborales en Soldadura de CENTEC, está capacitado para trabajar en una línea de ensamble, construcción y reparación de maquinarias, estructuras y otros, realizando uniones y el rellenado de metales además de el corte de materiales (ferrosos y no ferrosos), tomando como referencia una orden de trabajo, una muestra o un plano de fabricación. Establece las maquinas, selecciona el proceso y los equipos necesarios para soldar y/o cortar, para la unión y/o el rellenado de metales y el corte de materiales.",
     cetification: "Técnico Laboral por Competencias en Soldadura.",
-    occupationalProfile: "El egresado del Programa Técnico Laboral en Soldadura de CENTEC está preparado para desempeñarse como un técnico competente en el campo de la soldadura en diversas industrias y sectores relacionados. Con habilidades sólidas en la interpretación de planos, preparación de materiales y ejecución de procesos de soldadura, el egresado puede desempeñar roles como soldador, montador de estructuras metálicas, operador de máquinas de soldadura automatizadas, entre otros. Su capacidad para trabajar con precisión y cumplir con los estándares de calidad y seguridad exigidos por la industria lo hace un activo valioso para empresas de fabricación, construcción, mantenimiento industrial, entre otras. Además, su formación ética y su compromiso con la seguridad laboral y el cuidado del medio ambiente lo distinguen como un profesional responsable y apto para enfrentar los desafíos del entorno laboral.",
+    occupationalProfile:
+      "El egresado del Programa Técnico Laboral en Soldadura de CENTEC está preparado para desempeñarse como un técnico competente en el campo de la soldadura en diversas industrias y sectores relacionados. Con habilidades sólidas en la interpretación de planos, preparación de materiales y ejecución de procesos de soldadura, el egresado puede desempeñar roles como soldador, montador de estructuras metálicas, operador de máquinas de soldadura automatizadas, entre otros. Su capacidad para trabajar con precisión y cumplir con los estándares de calidad y seguridad exigidos por la industria lo hace un activo valioso para empresas de fabricación, construcción, mantenimiento industrial, entre otras. Además, su formación ética y su compromiso con la seguridad laboral y el cuidado del medio ambiente lo distinguen como un profesional responsable y apto para enfrentar los desafíos del entorno laboral.",
     loginRequirements:
       "Edad mínima: 14 años.<br/> Nivel de escolaridad: A partir de 10° grado.<br/> Documentación Requerida:<br/> - Copia del documento de identificación al 150%.<br/> - Copia del diploma de bachiller/acta de grado o certificado de estudio si está cursando 10°. <br/> - Fotocopia de un recibo de servicio público.<br/> - Formato de inscripción diligenciado.",
     studyPlan: [
@@ -1308,7 +1342,7 @@ export const ACACIAS_PROGRAMS = [
           "Dibujo Técnico",
           "Introducción a la soldadura",
           "Herramientas, Instrumentación y Control",
-          "Informática Aplicada"
+          "Informática Aplicada",
         ],
       },
       {
@@ -1341,15 +1375,22 @@ export const ACACIAS_PROGRAMS = [
   },
   {
     title: "Seguridad en el Trabajo",
-    description: "El programa de formación del Técnico Laboral por Competencias en Seguridad en el Trabajo de CENTEC tiene...",
+    description:
+      "El programa de formación del Técnico Laboral por Competencias en Seguridad en el Trabajo de CENTEC tiene...",
     titleProgram: "Técnico Laboral en Seguridad en el Trabajo",
-    descriptionProgram: "El programa de formación del Técnico Laboral por Competencias en Seguridad en el Trabajo de CENTEC tiene como objetivo formar personal para el desempeño competente en las empresas relacionadas con las funciones de fomentar, supervisar, apoyar, aplicar, reducir y garantizar tanto las prácticas en ambientes de trabajo, actividades de salud, seguridad, incidentes, peligros e higiene y seguridad industrial.",
-    recordsProgram: "Resolución No. 1085 de 2024 de la Secretaria de Educación del Departamento del Meta.",
+    descriptionProgram:
+      "El programa de formación del Técnico Laboral por Competencias en Seguridad en el Trabajo de CENTEC tiene como objetivo formar personal para el desempeño competente en las empresas relacionadas con las funciones de fomentar, supervisar, apoyar, aplicar, reducir y garantizar tanto las prácticas en ambientes de trabajo, actividades de salud, seguridad, incidentes, peligros e higiene y seguridad industrial.",
+    recordsProgram:
+      "Resolución No. 1084 de 2024 de la Secretaria de Educación del Departamento del Meta.",
     timeProgram: "1.380 horas / 4 semestres",
-    objectiveProgram: "1. Capacitar al estudiante de SEGURIDAD EN EL TRABAJO, proporcionándole los conocimientos teórico-prácticos, a través de los diferentes módulos de la estructura curricular, haciendo énfasis en la atención humanizada, que le permitirá brindar un cuidado integral y de óptima calidad al individuo, familia y comunidad.</br> 2. Desarrollar las competencias del recurso humano para atender las necesidades del sector productivo y social, contribuyendo de igual manera a elevar la productividad y competitividad de las empresas del sector. </br>3. Brindar los elementos necesarios para ubicar al técnico laboral en SEGURIDAD EN EL TRABAJO, en el trabajo multidisciplinario e intersectorial. </br>4. Facilitar al estudiante las herramientas pedagógicas que le permitan desarrollar su sentido de liderazgo y aplicarlo en el ambiente laboral como una estrategia generadora de cambio social. </br>5. Facilitar la inserción laboral de los egresados en empresas mediante la adquisición de habilidades y competencias demandadas por el mercado laboral en el ámbito de la seguridad y salud en el trabajo.</br> 6. Fomentar el desarrollo laboral continuo de los graduados, incentivándolos a mantenerse actualizados en nuevas tecnologías, procesos de seguridad y salud en el trabajo y estándares de calidad, contribuyendo así a su crecimiento y proyección en el campo laboral.",
-    graduateProfile: "Los egresados del Técnico por Competencias Laborales en Seguridad en el Trabajo de CENTEC, serán capaces de fomentar una práctica segura y saludable en los ambientes de trabajo, apoyar actividades de salud ocupacional y aplicar condiciones de salud y seguridad en el puesto de trabajo. Asimismo, trabajarán en la reducción de riesgos de acuerdo a las características del entorno y normatividad vigente, y garantizar el cumplimento de las normas ambientales y de seguridad previa y durante la realización de órdenes de trabajo.",
-    cetification: "Técnico Laboral por Competencias en Seguridad en el Trabajo.",
-    occupationalProfile: "El egresado del Programa Técnico Laboral en Seguridad en el Trabajo de CENTEC está capacitado para asumir diversas responsabilidades en el campo de la seguridad y la salud laboral, incluyendo: <br/> ▪ Auxiliar en seguridad en el trabajo: Encargado de implementar y mantener programas de seguridad y salud ocupacional en el lugar de trabajo, asegurando el cumplimiento de las normativas y la prevención de accidentes laborales. <br/> ▪ Auxiliar de seguridad industrial: Responsable de identificar, evaluar y controlar los riesgos asociados a los procesos industriales, con el objetivo de garantizar un entorno laboral seguro y saludable para todos los trabajadores. <br/> ▪ Auxiliar de supervisión y riesgos profesionales: Colabora en la supervisión de las actividades laborales para identificar posibles riesgos y proponer medidas preventivas, contribuyendo así a la reducción de accidentes y enfermedades laborales. <br/> ▪ Auxiliar Analista en seguridad y salud en el trabajo: Encargado de recopilar, analizar y presentar datos relacionados con la seguridad y la salud en el trabajo, con el fin de elaborar informes y recomendaciones que mejoren continuamente las condiciones laborales y minimicen los riesgos para los trabajadores.",
+    objectiveProgram:
+      "1. Capacitar al estudiante de SEGURIDAD EN EL TRABAJO, proporcionándole los conocimientos teórico-prácticos, a través de los diferentes módulos de la estructura curricular, haciendo énfasis en la atención humanizada, que le permitirá brindar un cuidado integral y de óptima calidad al individuo, familia y comunidad.</br> 2. Desarrollar las competencias del recurso humano para atender las necesidades del sector productivo y social, contribuyendo de igual manera a elevar la productividad y competitividad de las empresas del sector. </br>3. Brindar los elementos necesarios para ubicar al técnico laboral en SEGURIDAD EN EL TRABAJO, en el trabajo multidisciplinario e intersectorial. </br>4. Facilitar al estudiante las herramientas pedagógicas que le permitan desarrollar su sentido de liderazgo y aplicarlo en el ambiente laboral como una estrategia generadora de cambio social. </br>5. Facilitar la inserción laboral de los egresados en empresas mediante la adquisición de habilidades y competencias demandadas por el mercado laboral en el ámbito de la seguridad y salud en el trabajo.</br> 6. Fomentar el desarrollo laboral continuo de los graduados, incentivándolos a mantenerse actualizados en nuevas tecnologías, procesos de seguridad y salud en el trabajo y estándares de calidad, contribuyendo así a su crecimiento y proyección en el campo laboral.",
+    graduateProfile:
+      "Los egresados del Técnico por Competencias Laborales en Seguridad en el Trabajo de CENTEC, serán capaces de fomentar una práctica segura y saludable en los ambientes de trabajo, apoyar actividades de salud ocupacional y aplicar condiciones de salud y seguridad en el puesto de trabajo. Asimismo, trabajarán en la reducción de riesgos de acuerdo a las características del entorno y normatividad vigente, y garantizar el cumplimento de las normas ambientales y de seguridad previa y durante la realización de órdenes de trabajo.",
+    cetification:
+      "Técnico Laboral por Competencias en Seguridad en el Trabajo.",
+    occupationalProfile:
+      "El egresado del Programa Técnico Laboral en Seguridad en el Trabajo de CENTEC está capacitado para asumir diversas responsabilidades en el campo de la seguridad y la salud laboral, incluyendo: <br/> ▪ Auxiliar en seguridad en el trabajo: Encargado de implementar y mantener programas de seguridad y salud ocupacional en el lugar de trabajo, asegurando el cumplimiento de las normativas y la prevención de accidentes laborales. <br/> ▪ Auxiliar de seguridad industrial: Responsable de identificar, evaluar y controlar los riesgos asociados a los procesos industriales, con el objetivo de garantizar un entorno laboral seguro y saludable para todos los trabajadores. <br/> ▪ Auxiliar de supervisión y riesgos profesionales: Colabora en la supervisión de las actividades laborales para identificar posibles riesgos y proponer medidas preventivas, contribuyendo así a la reducción de accidentes y enfermedades laborales. <br/> ▪ Auxiliar Analista en seguridad y salud en el trabajo: Encargado de recopilar, analizar y presentar datos relacionados con la seguridad y la salud en el trabajo, con el fin de elaborar informes y recomendaciones que mejoren continuamente las condiciones laborales y minimicen los riesgos para los trabajadores.",
     loginRequirements:
       "Edad mínima: 14 años.<br/> Nivel de escolaridad: A partir de 10° grado.<br/> Documentación Requerida:<br/> - Copia del documento de identificación al 150%.<br/> - Copia del diploma de bachiller/acta de grado o certificado de estudio si está cursando 10°. <br/> - Fotocopia de un recibo de servicio público.<br/> - Formato de inscripción diligenciado.",
     studyPlan: [
@@ -1408,15 +1449,22 @@ export const ACACIAS_PROGRAMS = [
   },
   {
     title: "Operaciones Comerciales en Retail",
-    description: "El programa de formación del Técnico Laboral por Competencias en Operaciones Comerciales en Retail...",
+    description:
+      "El programa de formación del Técnico Laboral por Competencias en Operaciones Comerciales en Retail...",
     titleProgram: "Técnico Laboral en Operaciones Comerciales en Retail",
-    descriptionProgram: "El programa de formación del Técnico Laboral por Competencias en Operaciones Comerciales en Retail de CENTEC se centra en proporcionar una introducción integral al mundo del comercio minorista, con el propósito de dotar al egresado de las habilidades necesarias para sobresalir en este campo. El objetivo es capacitar a los estudiantes para llevar a cabo tareas fundamentales como la organización, exhibición y control de inventarios, así como la recepción y asignación de productos y servicios en establecimientos de consumo masivo, tanto minoristas como mayoristas, mientras se aplican principios éticos en entornos comerciales dinámicos. El programa está diseñado con diversos componentes de formación que incluyen contenido temático, actividades prácticas y recursos complementarios para enriquecer la experiencia educativa del estudiante.",
-    recordsProgram: "Resolución No. 1085 de 2024 de la Secretaria de Educación del Departamento del Meta.",
+    descriptionProgram:
+      "El programa de formación del Técnico Laboral por Competencias en Operaciones Comerciales en Retail de CENTEC se centra en proporcionar una introducción integral al mundo del comercio minorista, con el propósito de dotar al egresado de las habilidades necesarias para sobresalir en este campo. El objetivo es capacitar a los estudiantes para llevar a cabo tareas fundamentales como la organización, exhibición y control de inventarios, así como la recepción y asignación de productos y servicios en establecimientos de consumo masivo, tanto minoristas como mayoristas, mientras se aplican principios éticos en entornos comerciales dinámicos. El programa está diseñado con diversos componentes de formación que incluyen contenido temático, actividades prácticas y recursos complementarios para enriquecer la experiencia educativa del estudiante.",
+    recordsProgram:
+      "Resolución No. 1084 de 2024 de la Secretaria de Educación del Departamento del Meta.",
     timeProgram: "1.200 horas / 3 semestres",
-    objectiveProgram: "1. Capacitar a los estudiantes en técnicas efectivas de organización de productos dentro del entorno minorista, optimizando así el espacio disponible y mejorando la experiencia del cliente.</br> 2. Desarrollar habilidades en la gestión de inventarios, incluyendo técnicas de conteo, registro y control de existencias para garantizar la disponibilidad de productos requeridos y evitar pérdidas por obsolescencia.</br> 3. Enseñar a los estudiantes métodos para la exhibición atractiva de productos, utilizando principios de visual merchandising para destacar artículos clave y fomentar las ventas impulsivas.</br> 4. Familiarizar a los estudiantes con el proceso de recepción de mercancías, incluyendo la verificación de la calidad, la correcta documentación de llegada y el manejo adecuado de discrepancias en los pedidos.</br> 5. Entrenar a los estudiantes en técnicas de etiquetado y asignación de precios, asegurando una identificación clara y precisa de los productos, así como la correcta aplicación de precios según políticas establecidas. </br>6. Instruir a los estudiantes en la atención al cliente, proporcionando habilidades de comunicación efectiva y resolución de problemas para garantizar una experiencia positiva en cada interacción. </br>7. Capacitar a los estudiantes en el uso de herramientas tecnológicas relevantes para el comercio minorista, como sistemas de punto de venta (POS) y software de gestión de inventarios, para mejorar la eficiencia y precisión en las operaciones comerciales.</br> 8. Fomentar el desarrollo de habilidades de trabajo en equipo, colaboración y adaptabilidad para que los estudiantes puedan enfrentar con éxito los desafíos y cambios en el entorno del comercio minorista. </br>9. Preparar a los estudiantes para una transición exitosa al mundo laboral, proporcionándoles las habilidades prácticas y el conocimiento teórico necesarios para desempeñarse con competencia en roles relacionados con las operaciones comerciales en retail.",
-    graduateProfile: "Los egresados del Técnico por Competencias Laborales en Operaciones Comerciales en Retail de CENTEC, estarán integralmente formados bajo el enfoque de competencias, capacitados para destacarse en diversas funciones dentro del entorno del comercio minorista. Poseen habilidades sólidas en organización, exhibición, demostración, y gestión de inventarios, así como en la recepción y asignación de productos y servicios de consumo masivo en almacenes minoristas. Además, están comprometidos con la aplicación de principios éticos en todas sus acciones, adaptándose con agilidad a los cambios constantes del mercado para asegurar el éxito tanto personal como empresarial.",
-    cetification: "Técnico Laboral por Competencias en Operaciones Comerciales en Retail.",
-    occupationalProfile: "El egresado en Operaciones Comerciales en Retail está preparado para desempeñarse en una variedad de roles dentro del sector minorista, incluyendo: <br/> ▪ Asistente de ventas: Capaz de proporcionar atención al cliente excepcional, asesorando sobre productos y servicios, procesando transacciones de compra y garantizando una experiencia de compra satisfactoria. <br/> ▪ Coordinador de inventario: Encargado de gestionar el inventario de la tienda, realizando conteos regulares, registrando entradas y salidas de productos, y colaborando en la optimización de los niveles de stock. <br/> ▪ Encargado de exhibición: Responsable de la presentación visual de productos en la tienda, utilizando técnicas de visual merchandising para maximizar la atracción y las ventas. <br/> ▪ Auxiliar de almacén: Encargado de recibir y almacenar mercancía de manera adecuada, asegurando la correcta clasificación y organización de los productos para facilitar su posterior ubicación y distribución. <br/> ▪ Cajero/a: Responsable de procesar transacciones de compra de manera eficiente y precisa, manejando pagos en efectivo, tarjetas de crédito y otros métodos de pago electrónico. <br/> ▪ Asistente de supervisor: Colaborador clave en la supervisión de operaciones diarias, apoyando en la resolución de problemas, la implementación de procedimientos y el cumplimiento de estándares de calidad y servicio. <br/> ▪ Analista de datos de ventas: Encargado de recopilar y analizar datos de ventas para identificar tendencias, patrones de consumo y oportunidades de mejora en la estrategia comercial.<br/> ▪ Coordinador de logística: Responsable de coordinar la recepción, almacenamiento y distribución eficiente de productos, asegurando la disponibilidad oportuna y adecuada de mercancía en la tienda. <br/> ▪ Promotor de ventas: Encargado de realizar demostraciones de productos, promociones y actividades de marketing en la tienda para impulsar las ventas y aumentar la visibilidad de la marca. <br/> ▪ Asistente de compras: Colaborador en el proceso de selección y adquisición de productos, apoyando en la evaluación de proveedores, la negociación de precios y las decisiones de surtido de mercancía.<br/> El egresado en Operaciones Comerciales en Retail cuenta con las habilidades técnicas y competencias necesarias para desempeñarse con eficacia en cualquiera de estos roles, contribuyendo al éxito y la competitividad del negocio minorista en el que se incorpore.",
+    objectiveProgram:
+      "1. Capacitar a los estudiantes en técnicas efectivas de organización de productos dentro del entorno minorista, optimizando así el espacio disponible y mejorando la experiencia del cliente.</br> 2. Desarrollar habilidades en la gestión de inventarios, incluyendo técnicas de conteo, registro y control de existencias para garantizar la disponibilidad de productos requeridos y evitar pérdidas por obsolescencia.</br> 3. Enseñar a los estudiantes métodos para la exhibición atractiva de productos, utilizando principios de visual merchandising para destacar artículos clave y fomentar las ventas impulsivas.</br> 4. Familiarizar a los estudiantes con el proceso de recepción de mercancías, incluyendo la verificación de la calidad, la correcta documentación de llegada y el manejo adecuado de discrepancias en los pedidos.</br> 5. Entrenar a los estudiantes en técnicas de etiquetado y asignación de precios, asegurando una identificación clara y precisa de los productos, así como la correcta aplicación de precios según políticas establecidas. </br>6. Instruir a los estudiantes en la atención al cliente, proporcionando habilidades de comunicación efectiva y resolución de problemas para garantizar una experiencia positiva en cada interacción. </br>7. Capacitar a los estudiantes en el uso de herramientas tecnológicas relevantes para el comercio minorista, como sistemas de punto de venta (POS) y software de gestión de inventarios, para mejorar la eficiencia y precisión en las operaciones comerciales.</br> 8. Fomentar el desarrollo de habilidades de trabajo en equipo, colaboración y adaptabilidad para que los estudiantes puedan enfrentar con éxito los desafíos y cambios en el entorno del comercio minorista. </br>9. Preparar a los estudiantes para una transición exitosa al mundo laboral, proporcionándoles las habilidades prácticas y el conocimiento teórico necesarios para desempeñarse con competencia en roles relacionados con las operaciones comerciales en retail.",
+    graduateProfile:
+      "Los egresados del Técnico por Competencias Laborales en Operaciones Comerciales en Retail de CENTEC, estarán integralmente formados bajo el enfoque de competencias, capacitados para destacarse en diversas funciones dentro del entorno del comercio minorista. Poseen habilidades sólidas en organización, exhibición, demostración, y gestión de inventarios, así como en la recepción y asignación de productos y servicios de consumo masivo en almacenes minoristas. Además, están comprometidos con la aplicación de principios éticos en todas sus acciones, adaptándose con agilidad a los cambios constantes del mercado para asegurar el éxito tanto personal como empresarial.",
+    cetification:
+      "Técnico Laboral por Competencias en Operaciones Comerciales en Retail.",
+    occupationalProfile:
+      "El egresado en Operaciones Comerciales en Retail está preparado para desempeñarse en una variedad de roles dentro del sector minorista, incluyendo: <br/> ▪ Asistente de ventas: Capaz de proporcionar atención al cliente excepcional, asesorando sobre productos y servicios, procesando transacciones de compra y garantizando una experiencia de compra satisfactoria. <br/> ▪ Coordinador de inventario: Encargado de gestionar el inventario de la tienda, realizando conteos regulares, registrando entradas y salidas de productos, y colaborando en la optimización de los niveles de stock. <br/> ▪ Encargado de exhibición: Responsable de la presentación visual de productos en la tienda, utilizando técnicas de visual merchandising para maximizar la atracción y las ventas. <br/> ▪ Auxiliar de almacén: Encargado de recibir y almacenar mercancía de manera adecuada, asegurando la correcta clasificación y organización de los productos para facilitar su posterior ubicación y distribución. <br/> ▪ Cajero/a: Responsable de procesar transacciones de compra de manera eficiente y precisa, manejando pagos en efectivo, tarjetas de crédito y otros métodos de pago electrónico. <br/> ▪ Asistente de supervisor: Colaborador clave en la supervisión de operaciones diarias, apoyando en la resolución de problemas, la implementación de procedimientos y el cumplimiento de estándares de calidad y servicio. <br/> ▪ Analista de datos de ventas: Encargado de recopilar y analizar datos de ventas para identificar tendencias, patrones de consumo y oportunidades de mejora en la estrategia comercial.<br/> ▪ Coordinador de logística: Responsable de coordinar la recepción, almacenamiento y distribución eficiente de productos, asegurando la disponibilidad oportuna y adecuada de mercancía en la tienda. <br/> ▪ Promotor de ventas: Encargado de realizar demostraciones de productos, promociones y actividades de marketing en la tienda para impulsar las ventas y aumentar la visibilidad de la marca. <br/> ▪ Asistente de compras: Colaborador en el proceso de selección y adquisición de productos, apoyando en la evaluación de proveedores, la negociación de precios y las decisiones de surtido de mercancía.<br/> El egresado en Operaciones Comerciales en Retail cuenta con las habilidades técnicas y competencias necesarias para desempeñarse con eficacia en cualquiera de estos roles, contribuyendo al éxito y la competitividad del negocio minorista en el que se incorpore.",
     loginRequirements:
       "Edad mínima: 14 años.<br/> Nivel de escolaridad: A partir de 10° grado.<br/> Documentación Requerida:<br/> - Copia del documento de identificación al 150%.<br/> - Copia del diploma de bachiller/acta de grado o certificado de estudio si está cursando 10°. <br/> - Fotocopia de un recibo de servicio público.<br/> - Formato de inscripción diligenciado.",
     studyPlan: [
@@ -1462,16 +1510,23 @@ export const ACACIAS_PROGRAMS = [
     ],
   },
   {
-    title: "Tránsito, Transporte y Seguridad Vial",
-    description: "El programa de formación del Técnico Laboral por Competencias en Tránsito, Transporte y Seguridad Vial...",
-    titleProgram: "Técnico Laboral en Tránsito, Transporte y Seguridad Vial",
-    descriptionProgram: "El programa de formación del Técnico Laboral por Competencias en Tránsito, Transporte y Seguridad Vial de CENTEC tiene como objetivo principal satisfacer las necesidades del sector productivo en el ámbito del tránsito, transporte y seguridad vial, proporcionando personal altamente calificado que contribuya de manera significativa al desarrollo tanto local como nacional. Este programa también se enfoca en formar técnicos con habilidades comunicativas sólidas, con el fin de fomentar la adopción de competencias ciudadanas relacionadas con estas áreas, liderando así un cambio cultural que promueva prácticas alineadas con las políticas de tránsito, transporte y seguridad vial. Además, busca establecer una estrecha articulación entre la comunidad y los diversos actores, instituciones y organizaciones responsables en este ámbito.",
-    recordsProgram: "Resolución No. 1085 de 2024 de la Secretaria de Educación del Departamento del Meta.",
+    title: "Tránsito y Seguridad Vial",
+    description:
+      "El programa de formación del Técnico Laboral por Competencias en Tránsito, Transporte y Seguridad Vial...",
+    titleProgram: "Técnico Laboral en Tránsito y Seguridad Vial",
+    descriptionProgram:
+      "El programa de formación del Técnico Laboral por Competencias en Tránsito, Transporte y Seguridad Vial de CENTEC tiene como objetivo principal satisfacer las necesidades del sector productivo en el ámbito del tránsito, transporte y seguridad vial, proporcionando personal altamente calificado que contribuya de manera significativa al desarrollo tanto local como nacional. Este programa también se enfoca en formar técnicos con habilidades comunicativas sólidas, con el fin de fomentar la adopción de competencias ciudadanas relacionadas con estas áreas, liderando así un cambio cultural que promueva prácticas alineadas con las políticas de tránsito, transporte y seguridad vial. Además, busca establecer una estrecha articulación entre la comunidad y los diversos actores, instituciones y organizaciones responsables en este ámbito.",
+    recordsProgram:
+      "Resolución No. 1084 de 2024 de la Secretaria de Educación del Departamento del Meta.",
     timeProgram: "1.200 horas / 3 semestres",
-    objectiveProgram: "1. Formar técnicos laborales altamente capacitados en las áreas de tránsito, transporte y seguridad vial, dotándolos de los conocimientos teóricos y habilidades prácticas necesarias para desempeñarse eficazmente en diferentes roles dentro de estos campos.</br> 2. Proporcionar una comprensión integral de la normativa legal y regulatoria relacionada con el tránsito, el transporte y la seguridad vial, preparando a los estudiantes para aplicarla de manera efectiva en su trabajo diario y contribuir al cumplimiento de las políticas y leyes vigentes. </br>3. Desarrollar habilidades de comunicación efectiva y competencias ciudadanas en los estudiantes, con el fin de promover una cultura de seguridad vial y fomentar prácticas responsables entre conductores, peatones y demás usuarios de las vías públicas. </br>4. Capacitar a los estudiantes en técnicas de gestión de tráfico y movilidad, incluyendo la planificación y coordinación de rutas, la regulación del flujo vehicular y la implementación de medidas para prevenir accidentes y congestiones en las vías. </br>5. Enseñar a los estudiantes a identificar y evaluar los riesgos asociados con el transporte y la circulación vial, así como a aplicar estrategias de prevención y mitigación para garantizar la seguridad de los usuarios y minimizar el impacto de posibles incidentes. </br>6. Promover el desarrollo de habilidades de liderazgo y trabajo en equipo entre los estudiantes, preparándolos para colaborar de manera efectiva con diferentes actores y organizaciones involucradas en la gestión del tránsito, el transporte y la seguridad vial. </br>7. Facilitar la adquisición de competencias técnicas específicas en áreas como la señalización vial, la inspección de vehículos, la atención a emergencias en la vía pública y la elaboración de informes técnicos relacionados con accidentes de tránsito y eventos similares. </br>8. Fomentar una actitud proactiva y comprometida hacia la mejora continua en el ámbito del tránsito, el transporte y la seguridad vial, alentando a los estudiantes a participar en programas de actualización profesional y a contribuir con propuestas innovadoras para optimizar los procesos y procedimientos existentes.",
-    graduateProfile: "Los egresados del Técnico por Competencias Laborales en Tránsito, Transporte y Seguridad Vial de CENTEC, se encuentran preparados para integrarse en diversos entornos laborales, incluyendo organismos de tránsito, empresas de transporte y centros educativos. Estarán capacitados para desempeñar una amplia gama de funciones esenciales, incluyendo la prevención de accidentes viales, la educación ciudadana, la asistencia en emergencias, el control y la regulación del tráfico, así como la promoción de la seguridad vial entre los diferentes actores de la vía, como peatones, conductores y pasajeros. Su principal objetivo será generar conciencia sobre la importancia de preservar la vida en las vías, promoviendo comportamientos responsables y contribuyendo activamente a la reducción de accidentes y lesiones en el entorno vial.",
-    cetification: "Técnico Laboral por Competencias en Tránsito, Transporte y Seguridad Vial.",
-    occupationalProfile: "El egresado del programa Técnico Laboral por Competencias en Tránsito, Transporte y Seguridad Vial está capacitado para desempeñarse en una variedad de roles dentro del campo del tránsito y la seguridad vial. Algunas de las posiciones que puede ocupar incluyen: <br/> ▪ Inspector de tránsito: Encargado de verificar el cumplimiento de las normas de tránsito y seguridad vial por parte de conductores y peatones, emitiendo sanciones y recomendaciones según corresponda. <br/> ▪ Educador vial: Responsable de diseñar y llevar a cabo programas educativos y campañas de concientización para promover la seguridad vial y prevenir accidentes en la comunidad. <br/> ▪ Coordinador de seguridad vial: Encargado de desarrollar y supervisar políticas y procedimientos de seguridad vial en empresas, instituciones gubernamentales o entidades educativas, asegurando el cumplimiento de los estándares y regulaciones vigentes. <br/> ▪ Asistente de planificación de transporte: Colaborador en la elaboración de planes y proyectos de infraestructura vial y transporte público, evaluando impactos en la seguridad vial y proponiendo medidas correctivas o preventivas. <br/> ▪ Supervisor de operaciones de tránsito: Responsable de coordinar y dirigir las actividades diarias de control y regulación del tráfico en áreas urbanas o viales, garantizando el flujo eficiente y seguro de vehículos y peatones. <br/> ▪ Investigador de accidentes de tránsito: Encargado de recopilar y analizar datos sobre accidentes viales, determinando las causas y factores contribuyentes para proponer medidas de prevención y mejorar la seguridad en las vías. <br/> ▪ Coordinador de emergencias viales: Responsable de coordinar la respuesta ante accidentes de tránsito, gestionando la atención médica, la evacuación de heridos y la coordinación con autoridades y servicios de emergencia. <br/> ▪ Consultor en seguridad vial: Especialista en asesorar a empresas, entidades gubernamentales y organizaciones en la implementación de medidas de seguridad vial, evaluando riesgos y proponiendo soluciones efectivas. <br/> ▪ Técnico en señalización vial: Encargado de instalar y mantener la señalización vial en carreteras y calles, asegurando la visibilidad y comprensión adecuada de las señales de tránsito. <br/> ▪ Coordinador de programas de movilidad sostenible: Responsable de promover el uso de medios de transporte alternativos y el desarrollo de infraestructuras amigables con el medio ambiente, contribuyendo a reducir la congestión vehicular y mejorar la seguridad vial.",
+    objectiveProgram:
+      "1. Formar técnicos laborales altamente capacitados en las áreas de tránsito, transporte y seguridad vial, dotándolos de los conocimientos teóricos y habilidades prácticas necesarias para desempeñarse eficazmente en diferentes roles dentro de estos campos.</br> 2. Proporcionar una comprensión integral de la normativa legal y regulatoria relacionada con el tránsito, el transporte y la seguridad vial, preparando a los estudiantes para aplicarla de manera efectiva en su trabajo diario y contribuir al cumplimiento de las políticas y leyes vigentes. </br>3. Desarrollar habilidades de comunicación efectiva y competencias ciudadanas en los estudiantes, con el fin de promover una cultura de seguridad vial y fomentar prácticas responsables entre conductores, peatones y demás usuarios de las vías públicas. </br>4. Capacitar a los estudiantes en técnicas de gestión de tráfico y movilidad, incluyendo la planificación y coordinación de rutas, la regulación del flujo vehicular y la implementación de medidas para prevenir accidentes y congestiones en las vías. </br>5. Enseñar a los estudiantes a identificar y evaluar los riesgos asociados con el transporte y la circulación vial, así como a aplicar estrategias de prevención y mitigación para garantizar la seguridad de los usuarios y minimizar el impacto de posibles incidentes. </br>6. Promover el desarrollo de habilidades de liderazgo y trabajo en equipo entre los estudiantes, preparándolos para colaborar de manera efectiva con diferentes actores y organizaciones involucradas en la gestión del tránsito, el transporte y la seguridad vial. </br>7. Facilitar la adquisición de competencias técnicas específicas en áreas como la señalización vial, la inspección de vehículos, la atención a emergencias en la vía pública y la elaboración de informes técnicos relacionados con accidentes de tránsito y eventos similares. </br>8. Fomentar una actitud proactiva y comprometida hacia la mejora continua en el ámbito del tránsito, el transporte y la seguridad vial, alentando a los estudiantes a participar en programas de actualización profesional y a contribuir con propuestas innovadoras para optimizar los procesos y procedimientos existentes.",
+    graduateProfile:
+      "Los egresados del Técnico por Competencias Laborales en Tránsito, Transporte y Seguridad Vial de CENTEC, se encuentran preparados para integrarse en diversos entornos laborales, incluyendo organismos de tránsito, empresas de transporte y centros educativos. Estarán capacitados para desempeñar una amplia gama de funciones esenciales, incluyendo la prevención de accidentes viales, la educación ciudadana, la asistencia en emergencias, el control y la regulación del tráfico, así como la promoción de la seguridad vial entre los diferentes actores de la vía, como peatones, conductores y pasajeros. Su principal objetivo será generar conciencia sobre la importancia de preservar la vida en las vías, promoviendo comportamientos responsables y contribuyendo activamente a la reducción de accidentes y lesiones en el entorno vial.",
+    cetification:
+      "Técnico Laboral por Competencias en Tránsito y Seguridad Vial.",
+    occupationalProfile:
+      "El egresado del programa Técnico Laboral por Competencias en Tránsito, Transporte y Seguridad Vial está capacitado para desempeñarse en una variedad de roles dentro del campo del tránsito y la seguridad vial. Algunas de las posiciones que puede ocupar incluyen: <br/> ▪ Inspector de tránsito: Encargado de verificar el cumplimiento de las normas de tránsito y seguridad vial por parte de conductores y peatones, emitiendo sanciones y recomendaciones según corresponda. <br/> ▪ Educador vial: Responsable de diseñar y llevar a cabo programas educativos y campañas de concientización para promover la seguridad vial y prevenir accidentes en la comunidad. <br/> ▪ Coordinador de seguridad vial: Encargado de desarrollar y supervisar políticas y procedimientos de seguridad vial en empresas, instituciones gubernamentales o entidades educativas, asegurando el cumplimiento de los estándares y regulaciones vigentes. <br/> ▪ Asistente de planificación de transporte: Colaborador en la elaboración de planes y proyectos de infraestructura vial y transporte público, evaluando impactos en la seguridad vial y proponiendo medidas correctivas o preventivas. <br/> ▪ Supervisor de operaciones de tránsito: Responsable de coordinar y dirigir las actividades diarias de control y regulación del tráfico en áreas urbanas o viales, garantizando el flujo eficiente y seguro de vehículos y peatones. <br/> ▪ Investigador de accidentes de tránsito: Encargado de recopilar y analizar datos sobre accidentes viales, determinando las causas y factores contribuyentes para proponer medidas de prevención y mejorar la seguridad en las vías. <br/> ▪ Coordinador de emergencias viales: Responsable de coordinar la respuesta ante accidentes de tránsito, gestionando la atención médica, la evacuación de heridos y la coordinación con autoridades y servicios de emergencia. <br/> ▪ Consultor en seguridad vial: Especialista en asesorar a empresas, entidades gubernamentales y organizaciones en la implementación de medidas de seguridad vial, evaluando riesgos y proponiendo soluciones efectivas. <br/> ▪ Técnico en señalización vial: Encargado de instalar y mantener la señalización vial en carreteras y calles, asegurando la visibilidad y comprensión adecuada de las señales de tránsito. <br/> ▪ Coordinador de programas de movilidad sostenible: Responsable de promover el uso de medios de transporte alternativos y el desarrollo de infraestructuras amigables con el medio ambiente, contribuyendo a reducir la congestión vehicular y mejorar la seguridad vial.",
     loginRequirements:
       "Edad mínima: 14 años.<br/> Nivel de escolaridad: A partir de 10° grado.<br/> Documentación Requerida:<br/> - Copia del documento de identificación al 150%.<br/> - Copia del diploma de bachiller/acta de grado o certificado de estudio si está cursando 10°. <br/> - Fotocopia de un recibo de servicio público.<br/> - Formato de inscripción diligenciado.",
     studyPlan: [
@@ -1518,15 +1573,21 @@ export const ACACIAS_PROGRAMS = [
   },
   {
     title: "Sistemas Informáticos",
-    description: "El programa Técnico Laboral por Competencias en Sistemas Informáticos de CENTEC es una oportunidad...",
+    description:
+      "El programa Técnico Laboral por Competencias en Sistemas Informáticos de CENTEC es una oportunidad...",
     titleProgram: "Técnico Laboral en Sistemas Informáticos",
-    descriptionProgram: "El programa Técnico Laboral por Competencias en Sistemas Informáticos de CENTEC es una oportunidad única para aquellos que desean incursionar en el fascinante mundo de la tecnología de la información. Este programa está diseñado para brindar a los estudiantes una formación integral y práctica en el manejo de sistemas informáticos, proporcionándoles las habilidades necesarias para desempeñarse con éxito en diversos roles dentro del campo de la informática. Durante el programa, los estudiantes adquieren conocimientos fundamentales en áreas clave como la programación, la administración de redes, el desarrollo de software, la seguridad informática y el soporte técnico. A través de clases teóricas y prácticas, los estudiantes desarrollan competencias técnicas sólidas y aprenden a aplicarlas en situaciones reales, preparándose para enfrentar los desafíos del mundo laboral actual.",
-    recordsProgram: "Resolución No. 1085 de 2024 de la Secretaria de Educación del Departamento del Meta.",
+    descriptionProgram:
+      "El programa Técnico Laboral por Competencias en Sistemas Informáticos de CENTEC es una oportunidad única para aquellos que desean incursionar en el fascinante mundo de la tecnología de la información. Este programa está diseñado para brindar a los estudiantes una formación integral y práctica en el manejo de sistemas informáticos, proporcionándoles las habilidades necesarias para desempeñarse con éxito en diversos roles dentro del campo de la informática. Durante el programa, los estudiantes adquieren conocimientos fundamentales en áreas clave como la programación, la administración de redes, el desarrollo de software, la seguridad informática y el soporte técnico. A través de clases teóricas y prácticas, los estudiantes desarrollan competencias técnicas sólidas y aprenden a aplicarlas en situaciones reales, preparándose para enfrentar los desafíos del mundo laboral actual.",
+    recordsProgram:
+      "Resolución No. 1084 de 2024 de la Secretaria de Educación del Departamento del Meta.",
     timeProgram: "1.200 horas / 3 semestres",
-    objectiveProgram: "1. Proporcionar a los estudiantes una formación integral en sistemas informáticos, abarcando áreas como programación, redes, seguridad informática, desarrollo de software y soporte técnico.</br> 2. Desarrollar habilidades técnicas sólidas en los estudiantes, permitiéndoles aplicar conocimientos teóricos en la resolución de problemas prácticos relacionados con sistemas y tecnologías de la información.</br> 3. Capacitar a los estudiantes en el uso de herramientas y tecnologías modernas utilizadas en el ámbito informático, preparándolos para adaptarse a un entorno laboral en constante evolución. </br>4. Fomentar el desarrollo de habilidades blandas, como el trabajo en equipo, la comunicación efectiva y la resolución de problemas, para que los estudiantes puedan colaborar de manera efectiva en equipos multidisciplinarios y enfrentar los desafíos del mundo laboral.</br> 5. Fomentar la ética y la responsabilidad en el manejo de la información, asegurando que los estudiantes comprendan la importancia de la seguridad y la privacidad en el uso de sistemas informáticos.</br> 6. Facilitar oportunidades de prácticas y pasantías en empresas del sector, permitiendo a los estudiantes aplicar sus conocimientos en un entorno laboral real y adquirir experiencia práctica relevante.",
-    graduateProfile: "El egresado del programa Técnico Laboral por Competencias en Sistemas Informáticos de CENTEC es un técnico altamente competente en tecnología de la información, con habilidades sólidas en programación, administración de redes, seguridad informática y soporte técnico. Posee una mentalidad analítica y resolutiva, capaz de abordar desafíos complejos con eficacia, y está comprometido con el aprendizaje continuo y la actualización constante en un campo en constante evolución. Su capacidad para comunicarse efectivamente y trabajar en equipo lo hace un activo valioso en cualquier entorno laboral, donde contribuye al desarrollo y la implementación de soluciones innovadoras en el ámbito de la tecnología de la información.",
+    objectiveProgram:
+      "1. Proporcionar a los estudiantes una formación integral en sistemas informáticos, abarcando áreas como programación, redes, seguridad informática, desarrollo de software y soporte técnico.</br> 2. Desarrollar habilidades técnicas sólidas en los estudiantes, permitiéndoles aplicar conocimientos teóricos en la resolución de problemas prácticos relacionados con sistemas y tecnologías de la información.</br> 3. Capacitar a los estudiantes en el uso de herramientas y tecnologías modernas utilizadas en el ámbito informático, preparándolos para adaptarse a un entorno laboral en constante evolución. </br>4. Fomentar el desarrollo de habilidades blandas, como el trabajo en equipo, la comunicación efectiva y la resolución de problemas, para que los estudiantes puedan colaborar de manera efectiva en equipos multidisciplinarios y enfrentar los desafíos del mundo laboral.</br> 5. Fomentar la ética y la responsabilidad en el manejo de la información, asegurando que los estudiantes comprendan la importancia de la seguridad y la privacidad en el uso de sistemas informáticos.</br> 6. Facilitar oportunidades de prácticas y pasantías en empresas del sector, permitiendo a los estudiantes aplicar sus conocimientos en un entorno laboral real y adquirir experiencia práctica relevante.",
+    graduateProfile:
+      "El egresado del programa Técnico Laboral por Competencias en Sistemas Informáticos de CENTEC es un técnico altamente competente en tecnología de la información, con habilidades sólidas en programación, administración de redes, seguridad informática y soporte técnico. Posee una mentalidad analítica y resolutiva, capaz de abordar desafíos complejos con eficacia, y está comprometido con el aprendizaje continuo y la actualización constante en un campo en constante evolución. Su capacidad para comunicarse efectivamente y trabajar en equipo lo hace un activo valioso en cualquier entorno laboral, donde contribuye al desarrollo y la implementación de soluciones innovadoras en el ámbito de la tecnología de la información.",
     cetification: "Técnico Laboral por Competencias en Sistemas Informáticos.",
-    occupationalProfile: "El egresado del programa Técnico Laboral por Competencias en Sistemas Informáticos está preparado para desempeñarse en una amplia gama de roles dentro de la industria de la tecnología de la información. Entre las posiciones que puede ocupar se encuentran: <br/> ▪ Desarrollador de software: Encargado de crear aplicaciones y sistemas informáticos utilizando diferentes lenguajes de programación y tecnologías de desarrollo. <br/> ▪ Administrador de redes: Responsable de diseñar, implementar y mantener redes de computadoras para garantizar la conectividad y el funcionamiento eficiente de los sistemas informáticos. <br/> ▪ Asistente en seguridad informática: Encargado de proteger los sistemas y datos de una organización contra amenazas cibernéticas mediante la implementación de medidas de seguridad y la detección y respuesta a incidentes. <br/> ▪ Técnico de soporte técnico: Brinda asistencia técnica a usuarios y clientes, resolviendo problemas de hardware y software y proporcionando capacitación sobre el uso adecuado de los sistemas informáticos. <br/> ▪ Analista de sistemas: Se encarga de analizar los requisitos de los usuarios y diseñar soluciones informáticas que satisfagan sus necesidades, asegurando la eficiencia y funcionalidad de los sistemas. <br/> ▪ Especialista en bases de datos: Responsable de diseñar, implementar y administrar bases de datos para almacenar y gestionar eficientemente la información de una organización.",
+    occupationalProfile:
+      "El egresado del programa Técnico Laboral por Competencias en Sistemas Informáticos está preparado para desempeñarse en una amplia gama de roles dentro de la industria de la tecnología de la información. Entre las posiciones que puede ocupar se encuentran: <br/> ▪ Desarrollador de software: Encargado de crear aplicaciones y sistemas informáticos utilizando diferentes lenguajes de programación y tecnologías de desarrollo. <br/> ▪ Administrador de redes: Responsable de diseñar, implementar y mantener redes de computadoras para garantizar la conectividad y el funcionamiento eficiente de los sistemas informáticos. <br/> ▪ Asistente en seguridad informática: Encargado de proteger los sistemas y datos de una organización contra amenazas cibernéticas mediante la implementación de medidas de seguridad y la detección y respuesta a incidentes. <br/> ▪ Técnico de soporte técnico: Brinda asistencia técnica a usuarios y clientes, resolviendo problemas de hardware y software y proporcionando capacitación sobre el uso adecuado de los sistemas informáticos. <br/> ▪ Analista de sistemas: Se encarga de analizar los requisitos de los usuarios y diseñar soluciones informáticas que satisfagan sus necesidades, asegurando la eficiencia y funcionalidad de los sistemas. <br/> ▪ Especialista en bases de datos: Responsable de diseñar, implementar y administrar bases de datos para almacenar y gestionar eficientemente la información de una organización.",
     loginRequirements:
       "Edad mínima: 14 años.<br/> Nivel de escolaridad: A partir de 10° grado.<br/> Documentación Requerida:<br/> - Copia del documento de identificación al 150%.<br/> - Copia del diploma de bachiller/acta de grado o certificado de estudio si está cursando 10°. <br/> - Fotocopia de un recibo de servicio público.<br/> - Formato de inscripción diligenciado.",
     studyPlan: [
@@ -1571,273 +1632,27 @@ export const ACACIAS_PROGRAMS = [
       },
     ],
   },
-/*   {
-    title: "Salud y Seguridad en el Trabajo",
-    description: "",
-    titleProgram: "",
-    descriptionProgram: "",
-    recordsProgram: "",
-    timeProgram: "1.200 horas / 3 semestres",
-    objectiveProgram: "",
-    graduateProfile: "",
-    cetification: "",
-    occupationalProfile: "",
-    loginRequirements:
-      "Edad mínima: 14 años.<br/> Nivel de escolaridad: A partir de 10° grado.<br/> Documentación Requerida:<br/> - Copia del documento de identificación al 150%.<br/> - Copia del diploma de bachiller/acta de grado o certificado de estudio si está cursando 10°. <br/> - Fotocopia de un recibo de servicio público.<br/> - Formato de inscripción diligenciado.",
-    studyPlan: [
-      {
-        semestrer: "I Semestre",
-        subject: [
-          "Técnicas de Estudio",
-          "Matemáticas para la productividad",
-          "Introducción a la criminalística",
-          "Biología y anatomía forense",
-          "Principios de derecho y derecho constitucional",
-          "",
-          "",
-          "Ingles aplicado",
-          "",
-          "Cultura física",
-          "Informática aplicada",
-        ],
-      },
-      {
-        semestrer: "II Semestre",
-        subject: [
-          "Metodología de la investigación criminalística",
-          "Fundamentos administrativos",
-          "Procedimientos jurídico",
-          "Medicina forense",
-          "Gráfologia y documentación",
-          "",
-          "Balística",
-          "Cultura ambiental",
-          "",
-          "",
-        ],
-      },
-      {
-        semestrer: "III Semestre",
-        subject: [
-          "Sociología criminal y delito",
-          "Gestión y creación empresarial",
-          "",
-          "Toxicología forense",
-          "Derecho policivo y probatorio",
-          "",
-          "Fotografía judicial",
-          "",
-          "Dactiloscopia",
-          "Seguridad y salud en el trabajo",
-          "Ética y transformacion del entorno",
-        ],
-      },
-    ],
-  },
-  {
-    title: "Servicios Hoteleros y Turísticos",
-    description: "",
-    titleProgram: "",
-    descriptionProgram: "",
-    recordsProgram: "",
-    timeProgram: "1.200 horas / 3 semestres",
-    objectiveProgram: "",
-    graduateProfile: "",
-    cetification: "",
-    occupationalProfile: "",
-    loginRequirements:
-      "Edad mínima: 14 años.<br/> Nivel de escolaridad: A partir de 10° grado.<br/> Documentación Requerida:<br/> - Copia del documento de identificación al 150%.<br/> - Copia del diploma de bachiller/acta de grado o certificado de estudio si está cursando 10°. <br/> - Fotocopia de un recibo de servicio público.<br/> - Formato de inscripción diligenciado.",
-    studyPlan: [
-      {
-        semestrer: "I Semestre",
-        subject: [
-          "Técnicas de Estudio",
-          "Matemáticas para la productividad",
-          "Introducción a la criminalística",
-          "Biología y anatomía forense",
-          "Principios de derecho y derecho constitucional",
-          "",
-          "",
-          "Ingles aplicado",
-          "",
-          "Cultura física",
-          "Informática aplicada",
-        ],
-      },
-      {
-        semestrer: "II Semestre",
-        subject: [
-          "Metodología de la investigación criminalística",
-          "Fundamentos administrativos",
-          "Procedimientos jurídico",
-          "Medicina forense",
-          "Gráfologia y documentación",
-          "",
-          "Balística",
-          "Cultura ambiental",
-          "",
-          "",
-        ],
-      },
-      {
-        semestrer: "III Semestre",
-        subject: [
-          "Sociología criminal y delito",
-          "Gestión y creación empresarial",
-          "",
-          "Toxicología forense",
-          "Derecho policivo y probatorio",
-          "",
-          "Fotografía judicial",
-          "",
-          "Dactiloscopia",
-          "Seguridad y salud en el trabajo",
-          "Ética y transformacion del entorno",
-        ],
-      },
-    ],
-  },
-  {
-    title: "Soldadura",
-    description: "",
-    titleProgram: "",
-    descriptionProgram: "",
-    recordsProgram: "",
-    timeProgram: "1.200 horas / 3 semestres",
-    objectiveProgram: "",
-    graduateProfile: "",
-    cetification: "",
-    occupationalProfile: "",
-    loginRequirements:
-      "Edad mínima: 14 años.<br/> Nivel de escolaridad: A partir de 10° grado.<br/> Documentación Requerida:<br/> - Copia del documento de identificación al 150%.<br/> - Copia del diploma de bachiller/acta de grado o certificado de estudio si está cursando 10°. <br/> - Fotocopia de un recibo de servicio público.<br/> - Formato de inscripción diligenciado.",
-    studyPlan: [
-      {
-        semestrer: "I Semestre",
-        subject: [
-          "Técnicas de Estudio",
-          "Matemáticas para la productividad",
-          "Introducción a la criminalística",
-          "Biología y anatomía forense",
-          "Principios de derecho y derecho constitucional",
-          "",
-          "",
-          "Ingles aplicado",
-          "",
-          "Cultura física",
-          "Informática aplicada",
-        ],
-      },
-      {
-        semestrer: "II Semestre",
-        subject: [
-          "Metodología de la investigación criminalística",
-          "Fundamentos administrativos",
-          "Procedimientos jurídico",
-          "Medicina forense",
-          "Gráfologia y documentación",
-          "",
-          "Balística",
-          "Cultura ambiental",
-          "",
-          "",
-        ],
-      },
-      {
-        semestrer: "III Semestre",
-        subject: [
-          "Sociología criminal y delito",
-          "Gestión y creación empresarial",
-          "",
-          "Toxicología forense",
-          "Derecho policivo y probatorio",
-          "",
-          "Fotografía judicial",
-          "",
-          "Dactiloscopia",
-          "Seguridad y salud en el trabajo",
-          "Ética y transformacion del entorno",
-        ],
-      },
-    ],
-  },
-  
-  {
-    title: "Tránsito, Transporte y Seguridad Vial",
-    description: "",
-    titleProgram: "",
-    descriptionProgram: "",
-    recordsProgram: "",
-    timeProgram: "1.200 horas / 3 semestres",
-    objectiveProgram: "",
-    graduateProfile: "",
-    cetification: "",
-    occupationalProfile: "",
-    loginRequirements:
-      "Edad mínima: 14 años.<br/> Nivel de escolaridad: A partir de 10° grado.<br/> Documentación Requerida:<br/> - Copia del documento de identificación al 150%.<br/> - Copia del diploma de bachiller/acta de grado o certificado de estudio si está cursando 10°. <br/> - Fotocopia de un recibo de servicio público.<br/> - Formato de inscripción diligenciado.",
-    studyPlan: [
-      {
-        semestrer: "I Semestre",
-        subject: [
-          "Técnicas de Estudio",
-          "Matemáticas para la productividad",
-          "Introducción a la criminalística",
-          "Biología y anatomía forense",
-          "Principios de derecho y derecho constitucional",
-          "",
-          "",
-          "Ingles aplicado",
-          "",
-          "Cultura física",
-          "Informática aplicada",
-        ],
-      },
-      {
-        semestrer: "II Semestre",
-        subject: [
-          "Metodología de la investigación criminalística",
-          "Fundamentos administrativos",
-          "Procedimientos jurídico",
-          "Medicina forense",
-          "Gráfologia y documentación",
-          "",
-          "Balística",
-          "Cultura ambiental",
-          "",
-          "",
-        ],
-      },
-      {
-        semestrer: "III Semestre",
-        subject: [
-          "Sociología criminal y delito",
-          "Gestión y creación empresarial",
-          "",
-          "Toxicología forense",
-          "Derecho policivo y probatorio",
-          "",
-          "Fotografía judicial",
-          "",
-          "Dactiloscopia",
-          "Seguridad y salud en el trabajo",
-          "Ética y transformacion del entorno",
-        ],
-      },
-    ],
-  }, */
 ];
 
 export const GRANADA_PROGRAMS = [
   {
     title: "Saneamiento Ambiental",
-    description: "",
-    titleProgram: "",
-    descriptionProgram: "",
-    recordsProgram: "",
-    timeProgram: "1.200 horas / 3 semestres",
-    objectiveProgram: "",
-    graduateProfile: "",
-    cetification: "",
-    occupationalProfile: "",
+    description:
+      "El Programa Técnico Laboral por Competencias en Saneamiento Ambiental se presenta...",
+    titleProgram:
+      "El Programa Técnico Laboral por Competencias en Saneamiento Ambiental se presenta",
+    descriptionProgram:
+      "El Programa Técnico Laboral por Competencias en Saneamiento Ambiental se presenta con el propósito de suministrar al sector productivo de Servicios Ambientales técnicos con notables aptitudes laborales, capaces de catalizar el desarrollo económico, social y tecnológico tanto a nivel local como nacional. Asimismo, busca proporcionar a los estudiantes una formación integral en las tecnologías de Producción Limpia, con competencias especializadas para respaldar las actividades relacionadas con la inspección, vigilancia y control de los factores de riesgo ambientales y su repercusión en la salud de la población, asegurando así un abordaje efectivo y sostenible en la preservación y mejora del entorno.",
+    recordsProgram:
+      "Resolución No. 2548 de 2022 de la Secretaria de Educación del Departamento del Meta.",
+    timeProgram: "1.320 horas / 3 semestres",
+    objectiveProgram:
+      "1.	Proporcionar formación integral en las tecnologías de Producción Limpia, abarcando métodos y prácticas que minimizan el impacto ambiental en los procesos productivos.<br/> 2.	Formar técnicos laborales con competencias técnicas sólidas para llevar a cabo actividades relacionadas con el saneamiento ambiental, inspección, vigilancia y control de factores de riesgo.<br/> 3.	Capacitar a los estudiantes para contribuir activamente al desarrollo sostenible, incorporando prácticas y enfoques que promuevan la preservación y mejora del entorno.<br/> 4.	Preparar a los técnicos para brindar un respaldo efectivo en las actividades de inspección, vigilancia y control de factores de riesgo ambientales, contribuyendo así a la mitigación de impactos negativos.<br/> 5.	Desarrollar habilidades para la identificación y evaluación de riesgos ambientales, permitiendo una intervención adecuada para prevenir posibles impactos perjudiciales.<br/> 6.	Capacitar a los estudiantes en la aplicación de normativas ambientales vigentes, garantizando el cumplimiento de regulaciones para la protección del entorno y la salud pública.",
+    graduateProfile:
+      "Los egresados del Técnico por Competencias Laborales en Saneamiento Ambiental de CENTEC, estará en capacidad de asistir y apoyar en actividades relacionadas con la inspección vigilancia y control de los factores de riesgo del ambiente y su impacto en la salud de la población tales como la calidad de agua, las condiciones higiénicas y sanitarias a que son sometidos los alimentos y bebidas para el consumo, el control de desechos y la vigilancia y control de la calidad de los riesgos ocupacionales..",
+    cetification: "Técnico Laboral por Competencias en Saneamiento Ambiental.",
+    occupationalProfile:
+      "El Técnico Laboral por Competencias en Saneamiento Ambiental podrá desempeñarse como: Asistentes en Saneamiento Ambiental, Técnico en salud ambiental, Técnico en saneamiento, Técnico en saneamiento ambiental. Además, asisten y apoyan actividades relacionadas con la Inspección, Vigilancia y Control de los factores de riesgo del ambiente y su impacto en la salud de la población tales como la calidad del agua, las condiciones higiénicas en los procesos técnicos y sanitarios en que son sometidos los alimentos, bebidas y medicamentos para el consumo; apoyan la prevención de zoonosis, el control de desechos sólidos y líquidos, la vigilancia y el control de la calidad de los riesgos ocupacionales.",
     loginRequirements:
       "Edad mínima: 14 años.<br/> Nivel de escolaridad: A partir de 10° grado.<br/> Documentación Requerida:<br/> - Copia del documento de identificación al 150%.<br/> - Copia del diploma de bachiller/acta de grado o certificado de estudio si está cursando 10°. <br/> - Fotocopia de un recibo de servicio público.<br/> - Formato de inscripción diligenciado.",
     studyPlan: [
@@ -1846,61 +1661,53 @@ export const GRANADA_PROGRAMS = [
         subject: [
           "Técnicas de Estudio",
           "Matemáticas para la productividad",
-          "Introducción a la criminalística",
-          "Biología y anatomía forense",
-          "Principios de derecho y derecho constitucional",
-          "",
-          "",
-          "Ingles aplicado",
-          "",
-          "Cultura física",
-          "Informática aplicada",
+          "Ecología y Medio Ambiente",
+          "Fundamentos Administrativos",
+          "Elementos de la Economía",
+          "Desarrollo Sostenible",
+          "Cultura Física",
+          "Sistemas Aplicados",
         ],
       },
       {
         semestrer: "II Semestre",
         subject: [
           "Metodología de la investigación criminalística",
-          "Fundamentos administrativos",
-          "Procedimientos jurídico",
-          "Medicina forense",
-          "Gráfologia y documentación",
-          "",
-          "Balística",
-          "Cultura ambiental",
-          "",
-          "",
+          "Estadística",
+          "Gestión Ambiental",
+          "Administración de Talento Humano",
+          "Economía Ambiental ",
+          "Ordenamiento Territorial,  Geografía y Recursos Naturales",
+          "Valoración de Recursos Naturales y  Manejo de Residuos",
+          "Ingles I",
         ],
       },
       {
         semestrer: "III Semestre",
         subject: [
-          "Sociología criminal y delito",
-          "Gestión y creación empresarial",
-          "",
-          "Toxicología forense",
-          "Derecho policivo y probatorio",
-          "",
-          "Fotografía judicial",
-          "",
-          "Dactiloscopia",
-          "Seguridad y salud en el trabajo",
-          "Ética y transformacion del entorno",
+          "Formulación y Evaluación de Proyectos",
+          "Política Ambiental ",
+          "Gestión y Creación Empresarial",
+          "Legislación  y Derecho Ambiental ",
+          "Indicadores de Gestión y Medición Ambiental",
+          "Salud Ocupacional",
+          "Ética y Transformación Del Entorno",
+          "Ingles II",
         ],
       },
     ],
   },
   {
     title: "Asistente Social y Comunitario",
-    description: "",
-    titleProgram: "",
-    descriptionProgram: "",
-    recordsProgram: "",
-    timeProgram: "1.200 horas / 3 semestres",
-    objectiveProgram: "",
-    graduateProfile: "",
-    cetification: "",
-    occupationalProfile: "",
+    description: "El Programa Técnico Laboral por Competencias en Asistente Social y Comunitaria...",
+    titleProgram: "Técnico Laboral en Asistente Social y Comunitario",
+    descriptionProgram: "El Programa Técnico Laboral por Competencias en Asistente Social y Comunitaria se orienta hacia la formación integral de estudiantes capaces de desarrollar competencias esenciales en la documentación, acompañamiento y respaldo en la ejecución de proyectos de desarrollo social, comunitario y administrativo. Busca generar un impacto significativo tanto en el individuo como en la sociedad, promoviendo el aumento de la participación, la equidad y la justicia. Este programa se fundamenta en el reconocimiento y el respeto por los derechos humanos, la preservación de la cultura, la dignidad de las personas y la protección del medio ambiente, consolidando así técnicos comprometidos con la construcción de comunidades más inclusivas, justas y sostenibles.",
+    recordsProgram: "El Programa Técnico Laboral por Competencias en Asistente Social y Comunitaria ",
+    timeProgram: "1.390 horas / 4 semestres",
+    objectiveProgram: "1.	Proporcionar una formación integral que capacite al estudiante en habilidades técnicas, éticas y sociales necesarias para desempeñarse como Asistente Social y Comunitario.<br/> 2.	Desarrollar la capacidad del estudiante para aplicar conocimientos teóricos y prácticos en la asistencia, acompañamiento y documentación de programas y servicios sociales.<br/> 3.	Capacitar al estudiante para abordar y contribuir a la resolución de problemáticas sociales en diferentes contextos, incluyendo intervenciones con individuos, familias, grupos, comunidades y organizaciones.<br/> 4.	Fomentar la participación activa del estudiante en alternativas de intervención que promuevan el bienestar humano, impulsando cambios positivos en la sociedad.<br/> 5.	Desarrollar habilidades y conocimientos que permitan al estudiante contribuir a la transformación hacia una sociedad más justa, democrática, participativa y respetuosa de los derechos humanos.<br/> 6.	Desarrollar habilidades de documentación efectivas que respalden la ejecución y evaluación de programas sociales, facilitando la comunicación y el seguimiento de intervenciones.<br/> ",
+    graduateProfile: "Los egresados del Técnico por Competencias Laborales en Asistencia Social y Comunitaria de CENTEC, adquirirá la capacidad de aplicar sus conocimientos de manera efectiva para respaldar, acompañar y documentar programas o servicios destinados a la resolución de problemáticas, interrelaciones y procesos sociales. Estará preparado para trabajar con individuos, familias, grupos, comunidades y organizaciones, contribuyendo a diversas alternativas de intervención que buscan promover el bienestar humano, impulsar el cambio y propiciar la transformación hacia una sociedad más justa, democrática, participativa y respetuosa de los derechos humanos. ",
+    cetification: "Técnico Laboral por Competencias en Asistencia Social y Comunitaria.",
+    occupationalProfile: "El Técnico Laboral por Competencias en Asistente Social y Comunitario de CENTEC podrá desempeñarse en empresas y organizaciones públicas y privadas en áreas como: <br/> * Técnico operativo en el área social <br/> * Asistente social y comunitario<br/> * Auxiliar en trabajo social<br/> * Asistente en desarrollo y gestión social<br/> * Agente en promoción laboral e individual<br/> * Auxiliar de gestión social<br/> * Auxiliar de apoyo/ gestión comunitario<br/> * Auxiliar de bienestar laboral/ estudiantil<br/> * Auxiliar de formación en la primera infancia<br/> * Auxiliar de control de geriatría",
     loginRequirements:
       "Edad mínima: 14 años.<br/> Nivel de escolaridad: A partir de 10° grado.<br/> Documentación Requerida:<br/> - Copia del documento de identificación al 150%.<br/> - Copia del diploma de bachiller/acta de grado o certificado de estudio si está cursando 10°. <br/> - Fotocopia de un recibo de servicio público.<br/> - Formato de inscripción diligenciado.",
     studyPlan: [
@@ -1909,61 +1716,52 @@ export const GRANADA_PROGRAMS = [
         subject: [
           "Técnicas de Estudio",
           "Matemáticas para la productividad",
-          "Introducción a la criminalística",
-          "Biología y anatomía forense",
-          "Principios de derecho y derecho constitucional",
-          "",
-          "",
-          "Ingles aplicado",
-          "",
-          "Cultura física",
-          "Informática aplicada",
+          "Fundamentos Administrativos",
+          "Fundamentos De Pedagogía",
+          "Fundamentos De Psicología",
+          "Fundamentos de Sociología",
+          "Informática Aplicada",
         ],
       },
       {
         semestrer: "II Semestre",
         subject: [
-          "Metodología de la investigación criminalística",
-          "Fundamentos administrativos",
-          "Procedimientos jurídico",
-          "Medicina forense",
-          "Gráfologia y documentación",
-          "",
-          "Balística",
-          "Cultura ambiental",
-          "",
-          "",
+          "Técnicas de Comunicación",
+          "Bio - Estadística",
+          "Psicología Evolutiva",
+          "Sociología  Rural y Urbana",
+          "Derecho Constitucional y  Comercial",
+          "Trabajo Social I",
+          "Primeros Auxilios",
+          "Ética y Transformación Del Entorno",
         ],
       },
       {
         semestrer: "III Semestre",
         subject: [
-          "Sociología criminal y delito",
-          "Gestión y creación empresarial",
-          "",
-          "Toxicología forense",
-          "Derecho policivo y probatorio",
-          "",
-          "Fotografía judicial",
-          "",
-          "Dactiloscopia",
-          "Seguridad y salud en el trabajo",
-          "Ética y transformacion del entorno",
+          "Metodología de la Investigación",
+          "Gestión y Creación Empresarial",
+          "Antropología General",
+          "Organización y Participación comunitaria",
+          "Derecho Administrativo y de Familia",
+          "Elaboración y  Evaluación de Proyectos Sociales y Culturales",
+          "Ingles II",
+          "Cultura Física",
         ],
       },
     ],
   },
   {
     title: "Investigación Criminalistica y Judicial",
-    description: "",
-    titleProgram: "",
-    descriptionProgram: "",
-    recordsProgram: "",
+    description: "El Programa Técnico Laboral por Competencias en Investigación Criminalística y Judicial...",
+    titleProgram: "Técnico Laboral en Investigación Criminalística y Judicial",
+    descriptionProgram: "El Programa Técnico Laboral por Competencias en Investigación Criminalística y Judicial de CENTEC, orienta hacia la formación integral de estudiantes dotándolos de la capacidad para interpretar y aplicar de manera precisa los principios y protocolos legales y éticos que rigen la actuación en una investigación criminal. Los técnicos formados en este programa estarán equipados con las habilidades necesarias para contribuir de manera efectiva a la administración de justicia, asegurando el cumplimiento de normativas legales y éticas en el proceso de investigación criminal.",
+    recordsProgram: "Resolución No. 2548 de 2022 de la Secretaria de Educación del Departamento del Meta.",
     timeProgram: "1.200 horas / 3 semestres",
-    objectiveProgram: "",
-    graduateProfile: "",
-    cetification: "",
-    occupationalProfile: "",
+    objectiveProgram: "1. Proporcionar una formación integral a los estudiantes, dotándolos de conocimientos teóricos y prácticos en el ámbito de la investigación criminalística y judicial.<br/> 2. Capacitar a los estudiantes para interpretar y aplicar correctamente los principios legales que rigen las investigaciones criminales, asegurando un desempeño acorde con la normativa vigente.<br/> 3. Desarrollar competencias técnicas en los estudiantes para llevar a cabo investigaciones de manera efectiva, aplicando métodos y técnicas propias de la criminalística.<br/> 4. Fomentar la aplicación de protocolos éticos durante la investigación, asegurando la integridad y el respeto a los derechos fundamentales de las personas involucradas.<br/> 5. Dotar a los técnicos formados en el programa de las habilidades necesarias para colaborar eficientemente con la justicia, contribuyendo a la resolución de casos de manera ética y legal.<br/> 6. Desarrollar habilidades asistenciales para desempeñar funciones auxiliares en investigaciones criminales, colaborando con los profesionales de la justicia en el proceso de recolección y análisis de pruebas.",
+    graduateProfile: "Los egresados del Técnico por Competencias Laborales en Investigación Criminalística y Judicial de CENTEC, demostrarán competencia al respaldar y asistir técnicamente, científicamente y operativamente el desarrollo de actividades investigativas en el ámbito judicial, especialmente en las áreas de Criminalística y Judicial. Su preparación jurídica, técnica y humanística lo capacitará para comprender plenamente la importancia del servicio a la justicia y sus usuarios. Además, su compromiso con la actualización constante ante los cambios en el sistema jurídico, los protocolos científicos aplicables a la criminalística y las técnicas de investigación de conductas punibles, lo distinguirá. Su dedicación hacia la convivencia y el desarrollo social en la región le impulsará a buscar la verdad en relación con los sucesos investigados, reforzando así su contribución al sistema judicial y a la comunidad en general.",
+    cetification: "Técnico Laboral por Competencias en Investigación Criminalística y Judicial.",
+    occupationalProfile: "El Técnico Laboral por Competencias en Investigación Criminalística y Judicial de CENTEC apoya y asiste técnica, científica y operativamente el desarrollo de actividades investigativas del área judicial, criminalística y criminal. Se ocupa en el sector justicia, de bienes y servicios de carácter privado y público e investigación privada, en materia penal, disciplinaria, administrativa, comercial, industrial, y en prevención de actividades delictivas, entre otras.<br/> Nombre de las ocupaciones relacionadas:<br/> * Auxiliar Judicial<br/> * Investigador Criminalístico<br/> * Investigador Criminalístico y Judicial<br/> * Investigador Judicial<br/> * Investigador Privado<br/> * Técnicos Investigadores Criminalísticos y Judiciales<br/> ",
     loginRequirements:
       "Edad mínima: 14 años.<br/> Nivel de escolaridad: A partir de 10° grado.<br/> Documentación Requerida:<br/> - Copia del documento de identificación al 150%.<br/> - Copia del diploma de bachiller/acta de grado o certificado de estudio si está cursando 10°. <br/> - Fotocopia de un recibo de servicio público.<br/> - Formato de inscripción diligenciado.",
     studyPlan: [
@@ -1975,10 +1773,7 @@ export const GRANADA_PROGRAMS = [
           "Introducción a la criminalística",
           "Biología y anatomía forense",
           "Principios de derecho y derecho constitucional",
-          "",
-          "",
           "Ingles aplicado",
-          "",
           "Cultura física",
           "Informática aplicada",
         ],
@@ -1989,13 +1784,12 @@ export const GRANADA_PROGRAMS = [
           "Metodología de la investigación criminalística",
           "Fundamentos administrativos",
           "Procedimientos jurídico",
+          "Derecho penal",
+          "Planimetria forense",
           "Medicina forense",
           "Gráfologia y documentación",
-          "",
           "Balística",
           "Cultura ambiental",
-          "",
-          "",
         ],
       },
       {
@@ -2003,12 +1797,9 @@ export const GRANADA_PROGRAMS = [
         subject: [
           "Sociología criminal y delito",
           "Gestión y creación empresarial",
-          "",
           "Toxicología forense",
           "Derecho policivo y probatorio",
-          "",
           "Fotografía judicial",
-          "",
           "Dactiloscopia",
           "Seguridad y salud en el trabajo",
           "Ética y transformacion del entorno",

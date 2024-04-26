@@ -53,7 +53,7 @@ export default function Financing({
             >
               Financiación
             </h3>
-            <p className={`py-6 text-base lg:text-lg ${textColorDescrip}`}>
+            <p className={`py-6 text-lg lg:text-xl ${textColorDescrip}`}>
               <span className={`font-bold ${textColorList}`}>
                 Financiación Directa:{" "}
               </span>
@@ -62,14 +62,14 @@ export default function Financing({
             <dl className="max-w-xl space-y-4 text-base leading-7 text-gray-200 lg:max-w-none">
               {CHARACTERISTIC_CREDIT.map((item, index) => (
                 <div key={index}>
-                  <h3
-                    className={`text-base font-bold ${textColorList} lg:text-lg`}
+                  <p
+                    className={`text-lg font-bold ${textColorList} lg:text-xl`}
                   >
                     <item.icon
                       className={`inline-flex h-6 w-6 ${iconColor} mr-1`}
                     />
                     {item.name}
-                  </h3>
+                  </p>
                 </div>
               ))}
             </dl>

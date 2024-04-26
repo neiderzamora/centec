@@ -12,6 +12,7 @@ export const Campus = ({
   bgTime,
   campus,
   campusName,
+  colorTitle
 }) => {
   const [currentProgram, setCurrentProgram] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -30,7 +31,7 @@ export const Campus = ({
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
-        <h2 className="text-4xl sm:text-5xl pb-6 lg:pb-10 text-left font-bold tracking-tight text-white">
+        <h2 className={`text-4xl sm:text-5xl pb-6 lg:pb-10 text-left font-bold tracking-tight ${colorTitle} `}>
           {campusName}
         </h2>
       </div>

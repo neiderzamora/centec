@@ -20,7 +20,7 @@ export default function AcademicManagement() {
             <h3 className="sm:text-4xl text-3xl font-medium tracking-tight">
               Verificaciones Académicas
             </h3>
-            <p className="py-6 text-base lg:text-lg text-gray-300">
+            <p className="py-6 text-lg lg:text-xl text-gray-300">
               Teniendo en cuenta la <strong>Ley de Protección de datos</strong>,
               se debe adjuntar carta de autorización firmada por el estudiante o
               egresado. Las solicitudes recibidas después de las{" "}
@@ -36,7 +36,7 @@ export default function AcademicManagement() {
             <h3 className="sm:text-4xl text-3xl font-medium tracking-tight">
               Solicitud de certificados
             </h3>
-            <p className="mt-6 lg:text-lg text-base">
+            <p className="mt-6 lg:text-xl text-lg">
               Enviar solicitud al correo:{" "}
               <strong>colegio@educentec.edu.co</strong>
             </p>

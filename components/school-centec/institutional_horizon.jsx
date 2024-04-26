@@ -17,7 +17,7 @@ export default function InstitutionalHorizon() {
             <h3 className="sm:text-4xl text-3xl font-medium tracking-tight">
               Misión
             </h3>
-            <p className="py-6 text-base lg:text-lg text-gray-800">
+            <p className="py-6 text-lg lg:text-xl text-gray-800">
               Nuestra misión es brindar una educación de alta calidad y
               accesible que permita a los adultos alcanzar su título de
               bachiller, ofreciendo un entorno de aprendizaje enriquecedor y
@@ -33,7 +33,7 @@ export default function InstitutionalHorizon() {
             <h3 className="sm:text-4xl text-3xl font-medium tracking-tight">
               Visión
             </h3>
-            <p className="mt-6 lg:text-lg text-base text-gray-800">
+            <p className="mt-6 lg:text-xl text-lg text-gray-800">
               Nuestra visión es ser un referente nacional e internacional en la
               educación de adultos, reconocidos por la excelencia académica, la
               innovación pedagógica y el compromiso con la formación continua.

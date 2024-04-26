@@ -16,6 +16,7 @@ export default function CampusVillavicencio() {
         textColorTime="text-secondaryGreen"
         bgTime="bg-white"
         campusName="Sede Villavicencio (Meta)"
+        colorTitle="text-white"
       />
     </section>
   );

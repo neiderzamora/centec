@@ -11,7 +11,7 @@ export default function InstitucionalObjectives() {
           <h2 className="text-4xl lg:text-5xl font-bold tracking-tight text-white">
             Objetivos Institucionales
           </h2>
-          <p className="py-6 text-lg text-gray-300 text-justify">
+          <p className="py-6 text-lg lg:text-xl text-gray-300 text-justify">
             Forjamos Futuros Brillantes: Nuestra Visión y Misión Educativa.
             Inspiramos, empoderamos y guiamos a través de la excelencia
             académica, cultivando mentes curiosas y ciudadanos responsables para

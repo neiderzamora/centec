@@ -9,7 +9,7 @@ export default function MissionVision() {
           <h2 className="text-4xl sm:text-5xl font-bold tracking-tight text-white">
             Nuestra Misión y Visión
           </h2>
-          <p className="py-6 text-lg text-gray-300">
+          <p className="py-6 text-lg lg:text-xl text-gray-300">
             Forjamos Futuros Brillantes: Nuestra Visión y Misión Educativa.
             Inspiramos, empoderamos y guiamos a través de la excelencia
             académica, cultivando mentes curiosas y ciudadanos responsables para
@@ -21,7 +21,7 @@ export default function MissionVision() {
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
             <h3 className="sm:text-4xl text-3xl font-medium tracking-tight">Misión</h3>
-            <p className="mt-6 text-base lg:text-lg text-gray-200 pb-8">
+            <p className="mt-6 text-lg lg:text-xl text-gray-200 pb-8">
               Preparar a los jóvenes y trabajadores colombianos con una sólida
               formación para el trabajo en áreas específicas de los sectores
               productivos y desarrollar competencias laborales, que permitan
@@ -32,7 +32,7 @@ export default function MissionVision() {
           </div>
           <div className="relative mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
             <h3 className="sm:text-4xl text-3xl font-medium tracking-tight">Visión</h3>
-            <p className="mt-6 lg:text-lg text-base text-gray-200">
+            <p className="mt-6 lg:text-xl text-lg text-gray-200">
               Ser una Institución líder en la formación para el trabajo, con
               criterios de calidad, pertinencia laboral y accesibilidad,
               contribuyendo al desarrollo socioeconómico, formando trabajadores
