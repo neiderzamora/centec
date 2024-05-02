@@ -1,4 +1,5 @@
 import ButtonPaypal from "./button_paypal";
+import PaymentForm from "./payment_method";
 
 export default function Inscription() {
   return (
@@ -11,19 +12,38 @@ export default function Inscription() {
           <p className="mt-2 text-lg text-gray-300">
             Formulario de inscription [en proceso...]
           </p>
-          <form className="p-2 text-gray-600" action="">
-            <input className="p-2" type="text" placeholder="Nombre completo" />
-            <input
-              className="p-2 ml-2"
-              type="text"
-              placeholder="Correo electrónico"
-            />
-            <input className="p-2 ml-2" type="text" placeholder="Cedula" />
-          </form>
-          <ButtonPaypal />
+          <div className="max-w-3xl">
+            <form
+              className="p-2 text-gray-600 grid grid-cols-1 lg:grid-cols-3 gap-4"
+              action=""
+            >
+              <input
+                className="p-2"
+                type="text"
+                placeholder="Nombre completo"
+              />
+              <input
+                className="p-2 "
+                type="text"
+                placeholder="Correo electrónico"
+              />
+              <input className="p-2" type="text" placeholder="Cedula" />
+              <PaymentForm/>
+              <select className="" name="" id="">
+                <option value="">Posee un Subsidio?</option>
+                <option value="">Si</option>
+                <option value="">No</option>
+              </select>
+              <select className="p-2" name="" id="">
+                <option value="">Seleccione plan de financiación</option>
+                <option value="">Plan uno</option>
+                <option value="">Plan dos</option>
+              </select>
+            </form>
+            <ButtonPaypal />
+          </div>
         </div>
       </div>
     </div>
   );
 }
- 

@@ -1,5 +1,3 @@
-import Video from "@/assets/video/dir";
-
 export default function HeroSchool() {
   return (
     <section id="HeroSchool" className="overflow-hidden bg-white">

@@ -10,7 +10,6 @@ export default function RegistrationRequirements() {
       id="requisitos-de-matricula"
       className="relative overflow-hidden py-20 sm:py-32 lg:py-32 bg-white"
     >
-      
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-secondaryDarkBlue/90">
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div class="lg:block relative hidden mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6 my-auto">
