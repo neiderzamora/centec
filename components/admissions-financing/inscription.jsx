@@ -1,5 +1,7 @@
-import ButtonPaypal from "./button_paypal";
-import PaymentForm from "./payment_method";
+/* import ButtonPaypal from "./button_paypal";
+import PaymentForm from "./payment_method"; */
+
+import FormPayU from "../_payU/payU";
 
 export default function Inscription() {
   return (
@@ -9,10 +11,13 @@ export default function Inscription() {
           <h2 className="text-4xl lg:text-5xl font-bold tracking-tight text-white">
             Inscripción
           </h2>
-          <p className="mt-2 text-lg text-gray-300">
+         {/*  <p className="mt-2 text-lg text-gray-300">
             Formulario de inscription [en proceso...]
-          </p>
+          </p> */}
           <div className="max-w-3xl">
+            <FormPayU/>
+          </div>
+          {/* <div className="max-w-3xl">
             <form
               className="p-2 text-gray-600 grid grid-cols-1 lg:grid-cols-3 gap-4"
               action=""
@@ -41,7 +46,7 @@ export default function Inscription() {
               </select>
             </form>
             <ButtonPaypal />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

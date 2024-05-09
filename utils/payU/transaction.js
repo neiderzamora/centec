@@ -6,7 +6,7 @@ async function payUTransaction() {
     command: "SUBMIT_TRANSACTION",
     merchant: {
       apiKey: "z58rjJlt3AT8IEvyluu6L51R9T",
-      apiLogin: "VGsSK0A27omP5AJ",
+      apiLogin: "VGsSK0A27omP5AJ",  
     },
     transaction: {
       order: {
@@ -72,7 +72,7 @@ async function payUTransaction() {
         },
       },
       extraParameters: {
-        RESPONSE_URL: "http://www.payu.com/response",
+        //RESPONSE_URL: "http://www.payu.com/response",
         PSE_REFERENCE1: "127.0.0.1",
         FINANCIAL_INSTITUTION_CODE: "1022",
         USER_TYPE: "N",

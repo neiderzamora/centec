@@ -2,8 +2,6 @@ import Image from "next/image";
 import images from "@/assets/images/dir";
 import { FaLink } from "react-icons/fa6";
 import Link from "next/link";
-import PayButton from "./payU";
-
 export default function Hero() {
   return (
     <div className="relative overflow-hidden py-20 sm:py-32 bg-secondaryDarkBlue">
@@ -55,7 +53,7 @@ export default function Hero() {
                   CENTEC!
                 </li>
               </ul>
-              <PayButton/>
+            
             </div>
           </div>
           <div className="relative mx-auto max-w-2xl lg:col-span-7 lg:max-w-none xl:col-span-6 my-auto bg-black/5">

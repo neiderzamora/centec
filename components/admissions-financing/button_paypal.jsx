@@ -44,6 +44,7 @@ const ButtonPaypal = () => {
     setSelectedProductName(event.target.value);
   };
   console.log(process.env.PAYPAL_CLIENT_ID);
+  
   const handleCreateOrder = async () => {
     const product = products.find(
       (product) => product.name === selectedProductName
