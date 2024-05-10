@@ -115,7 +115,6 @@ export default function FormPayU() {
         {/* Datos de la transacción */}
         <input name="merchantId" type="hidden" value="508029" />
         <input name="accountId" type="hidden" value="512321" />
-        {/* <input name="description" type="hidden" value="Test PAYU" /> */}
         <input name="referenceCode" type="hidden" value={selectedProductReference} />
         <input name="amount" type="hidden" value={selectedProductPrice} />
         <input name="tax" type="hidden" value="0" />
