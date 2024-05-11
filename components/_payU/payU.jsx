@@ -5,6 +5,8 @@ import { API_KEY, MERCHAND_ID, CURRENCY } from "@/utils/payU/sandbox_account";
 import { calculateMD5 } from "@/utils/payU/create_hash";
 import { PRODUCTS } from "@/utils/payU/products";
 import { FORM_PAYU } from "@/utils/payU/inputs";
+import PaymentForm from "../admissions-financing/payment_method";
+import DiscountCode from "./discount_code";
 
 export default function FormPayU() {
   const [formData, setFormData] = useState({});
@@ -81,7 +83,7 @@ export default function FormPayU() {
         </div>
       )}
       <form
-        className="p-2 text-gray-600 grid grid-cols-1 lg:grid-cols-3 gap-4"
+        className="p-2 text-gray-600 grid grid-cols-1 lg:grid-cols-2 gap-4"
         method="post"
         action="https://sandbox.checkout.payulatam.com/ppp-web-gateway-payu/"
       >
@@ -112,25 +114,38 @@ export default function FormPayU() {
           ))}
         </select>
 
-        {/* Datos de la transacción */}
-        <input name="merchantId" type="hidden" value="508029" />
-        <input name="accountId" type="hidden" value="512321" />
-        <input name="referenceCode" type="hidden" value={selectedProductReference} />
-        <input name="amount" type="hidden" value={selectedProductPrice} />
-        <input name="tax" type="hidden" value="0" />
-        <input name="taxReturnBase" type="hidden" value="0" />
-        <input name="currency" type="hidden" value="COP" />
-        <input name="signature" type="hidden" value={md5Hash} />
-        <input name="test" type="hidden" value="0" />
-        <input name="responseUrl" type="hidden" value="/api/response" />
-        <input name="confirmationUrl" type="hidden" value="/api/confirmation" />
+        
+        <PaymentForm />
+
+        <div>
+          <input name="merchantId" type="hidden" value="508029" />
+          <input name="accountId" type="hidden" value="512321" />
+          <input
+            name="referenceCode"
+            type="hidden"
+            value={selectedProductReference}
+          />
+          <input name="amount" type="hidden" value={selectedProductPrice} />
+          <input name="tax" type="hidden" value="0" />
+          <input name="taxReturnBase" type="hidden" value="0" />
+          <input name="currency" type="hidden" value="COP" />
+          <input name="signature" type="hidden" value={md5Hash} />
+          <input name="test" type="hidden" value="0" />
+          <input name="responseUrl" type="hidden" value="/api/response" />
+          <input
+            name="confirmationUrl"
+            type="hidden"
+            value="/api/confirmation"
+          />
+        </div>
         <input
           name="submit"
           type="submit"
           value="Enviar"
-          className="text-xl font-semibold py-2 hover:scale-105 hover:delay-75 hover:opacity-80 cursor-pointer px-4 bg-primaryBlue text-white rounded-lg"
+          className="text-xl font-semibold py-2 hover:scale-105 hover:delay-75 hover:opacity-80 cursor-pointer px-4 bg-primaryBlue text-white rounded-lg lg:col-span-1"
         />
       </form>
+      <DiscountCode />
     </section>
   );
 }

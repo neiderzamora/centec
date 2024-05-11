@@ -3,11 +3,11 @@
 import { useState } from 'react';
 
 const PaymentForm = () => {
-  const [paymentMethod, setPaymentMethod] = useState(''); // Estado para almacenar el método de pago seleccionado
+  const [paymentMethod, setPaymentMethod] = useState('');
 
   return (
-    <div className='text-white'>
-      <h2 className="text-xl font-semibold mb-4">Selecciona el método de pago:</h2>
+    <div className='text-white lg:col-span-1'>
+      <h2 className="text-xl font-semibold mb-4">Selecciona el tipo de financiacion:</h2>
       <div className="flex items-center mb-4">
         <input
           type="radio"
