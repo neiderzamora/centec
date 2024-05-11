@@ -16,6 +16,18 @@ export default function FormPayU() {
   const [selectedProductCompletePrice, setSelectedProductCompletePrice] =
     useState(0);
 
+  const [cupon, setCupon] = useState("");
+  const [cuponValido, setCuponValido] = useState(false);
+
+  const verificarCupon = () => {
+    // Verificar si el cupón es válido (en este caso, si es igual a "regalo")
+    if (cupon.toLowerCase() === "regalo") {
+      setCuponValido(true);
+    } else {
+      setCuponValido(false);
+    }
+  };
+
   const handleProductChange = (event) => {
     const productName = event.target.value;
     setSelectedProductName(productName);
@@ -114,8 +126,6 @@ export default function FormPayU() {
           ))}
         </select>
 
-        
-        <PaymentForm />
 
         <div>
           <input name="merchantId" type="hidden" value="508029" />
@@ -145,7 +155,13 @@ export default function FormPayU() {
           className="text-xl font-semibold py-2 hover:scale-105 hover:delay-75 hover:opacity-80 cursor-pointer px-4 bg-primaryBlue text-white rounded-lg lg:col-span-1"
         />
       </form>
-      <DiscountCode />
+      <DiscountCode
+        cupon={cupon}
+        setCupon={setCupon}
+        verificarCupon={verificarCupon}
+        cuponValido={cuponValido}
+      />
+      {cuponValido && <PaymentForm />}
     </section>
   );
 }
