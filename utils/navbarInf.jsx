@@ -154,7 +154,8 @@ export const CARD = [
 ];
 
 export const NavigationMobil = [
-  { title: "Nuestra Instutución", urlPath: "/nuestra-institucion", icon: UserGroupIcon },
+  { title: "Nuestra Institución", urlPath: "/nuestra-institucion", icon: UserGroupIcon },
+  { title: "Bienestar", urlPath: "/bienestar", icon: UsersIcon },
   {
     title: "Adminisiones y Financiación",
     urlPath: "/admisiones-y-financiacion",
@@ -166,7 +167,6 @@ export const NavigationMobil = [
     icon: QueueListIcon,
   },
   { title: "Colegio CENTEC", urlPath: "/colegio-centec", icon: BuildingLibraryIcon },
-  { title: "Bienestar", urlPath: "/bienestar", icon: UsersIcon },
   { title: "Educación Continua", urlPath: "/educacion-continua", icon: BookOpenIcon },
   { title: "Innovación y Emprendimiento", urlPath: "/inoovacion-y-emprendimiento", icon: BeakerIcon },
 ];

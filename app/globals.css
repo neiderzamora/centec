@@ -37,3 +37,36 @@ body{
   color: #fff;
   text-align: justify;
 }
+
+select{
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none; 
+}
+
+select option {
+  padding: 15px; 
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff00;
+}
+
+/* Estilos para las opciones al pasar el mouse */
+option:hover {
+  background-color: #991818 !important;
+}
+
+select option:checked {
+  background-color: #313c72;
+  font-weight: bold;
+}
