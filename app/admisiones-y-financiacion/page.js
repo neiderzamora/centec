@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Adminisiones y Financiación"
-}
+  title: "Adminisiones y Financiación",
+};
 
 import EducationalSubsidies from "@/components/admissions-financing/educational_subsidies";
 import Financing from "@/components/admissions-financing/financing";
@@ -11,6 +11,7 @@ export default function AdmissionsFinancing() {
     <>
       <Inscription />
       <Financing
+        id="financiacion"
         iconColor="text-primaryBlue"
         version="educationalSubsidies"
         textColorDescrip="text-gray-700"

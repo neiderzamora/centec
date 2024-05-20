@@ -4,14 +4,20 @@ import { useState, useEffect } from "react";
 
 import { API_KEY, MERCHAND_ID, CURRENCY } from "@/utils/payU/sandbox_account";
 import { calculateMD5 } from "@/utils/payU/create_hash";
-import { PRODUCTS } from "@/utils/payU/products";
 import { FORM_PAYU } from "@/utils/payU/inputs";
 import PaymentForm from "../admissions-financing/payment_method";
+import SchoolPaymentMethod from "./school_payment_method";
+import useGenerateHash from "@/utils/payU/create_hash_reference";
 import Coupon from "./discount_code";
+import { handleVerification } from "@/utils/payU/validators";
 
-export default function FormPayU() {
+import { getProductDescription } from "@/utils/payU/description_product";
+import { calculateFinalPrice } from "@/utils/payU/final_price";
+
+const now = new Date();
+
+export default function FormPayU({ centecSelect }) {
   const [formData, setFormData] = useState({});
-  const [errors, setErrors] = useState({});
 
   const [selectedProductName, setSelectedProductName] = useState("");
   const [selectedProductPrice, setSelectedProductPrice] = useState(0);
@@ -25,10 +31,41 @@ export default function FormPayU() {
 
   const [finalPrice, setFinalPrice] = useState(0);
   const [paymentMethod, setPaymentMethod] = useState("");
+  const [productSchool, setProductSchool] = useState("");
+  const [formCompleted, setFormCompleted] = useState(false);
 
-  const selectedProduct = PRODUCTS.find(
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const selectedProduct = centecSelect.items.find(
     (product) => product.name === selectedProductName
   );
+
+  const handleSubmit = () => {
+    handleVerification({ setErrorMessage, formData, FORM_PAYU, setFormCompleted });
+  };
+
+  const hash = useGenerateHash();
+
+  const md5Hash = calculateMD5(
+    API_KEY,
+    MERCHAND_ID,
+    hash,
+    finalPrice,
+    CURRENCY
+  );
+
+  const productDescription = getProductDescription(
+    selectedProductName,
+    validCoupon,
+    selectedFee,
+    paymentMethod,
+    centecSelect,
+    productSchool
+  );
+
+  const handleProductSchool = (selectedProductSchool) => {
+    setProductSchool(selectedProductSchool);
+  };
 
   const handlePaymentMethodChange = (selectedPaymentMethod) => {
     setPaymentMethod(selectedPaymentMethod);
@@ -49,37 +86,37 @@ export default function FormPayU() {
     setSelectedFee(fee);
   };
 
-  const CALCULATE_FINAL_PRICE = () => {
-    let final_price = selectedProductPrice;
-
-    if (validCoupon && selectedFee && selectedProduct) {
-      if (paymentMethod != "contado") {
-        final_price = selectedFee.price;
-      } else {
-        final_price = selectedProduct.price_subsidies ?? selectedProductPrice;
-      }
-    }
-
-    if (validCoupon && !selectedFee && selectedProduct) {
-      final_price = selectedProduct?.price_subsidies ?? selectedProductPrice;
-    }
-
-    setFinalPrice(final_price);
-  };
-
   useEffect(() => {
-    CALCULATE_FINAL_PRICE();
-  }, [selectedProductName, selectedFee, validCoupon]);
+    calculateFinalPrice(
+      validCoupon,
+      selectedFee,
+      selectedProduct,
+      selectedProductPrice,
+      paymentMethod,
+      setFinalPrice,
+      centecSelect,
+      productSchool
+    );
+  }, [
+    selectedProductName,
+    selectedFee,
+    validCoupon,
+    selectedProductPrice,
+    paymentMethod,
+    setFinalPrice,
+    centecSelect,
+    productSchool,
+  ]);
 
   const handleProductChange = (event) => {
     const productName = event.target.value;
     setSelectedProductName(productName);
-    const selectedProduct = PRODUCTS.find(
+    const selectedProduct = centecSelect.items.find(
       (product) => product.name === productName
     );
     if (selectedProduct) {
       setSelectedProductPrice(selectedProduct.price);
-      setSelectedProductReference(selectedProduct.reference);
+      setSelectedProductReference(hash);
     } else {
       setSelectedProductPrice(0);
       setSelectedProductReference(0);
@@ -87,104 +124,69 @@ export default function FormPayU() {
     setShowDiscountCode(selectedProduct !== "");
   };
 
-  
-  const md5Hash = calculateMD5(
-    API_KEY,
-    MERCHAND_ID,
-    selectedProductReference,
-    finalPrice,
-    CURRENCY
-  );
-  
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    if (value.trim() === "") {
-      setErrors({
-        ...errors,
-        [name]: "Este campo no puede estar vacío",
-      });
-      return;
-    }
-    setErrors({
-      ...errors,
-      [name]: "",
-    });
     setFormData({
       ...formData,
-      [name]: value,
+      [e.target.name]: e.target.value,
     });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault(); // Evita que el formulario se envíe automáticamente
-  
-    // Verifica si hay algún campo vacío en el formData
-    for (const key in formData) {
-      if (formData[key].trim() === "") {
-        setErrors({
-          ...errors,
-          [key]: "Este campo no puede estar vacío",
-        });
-        return; // Detiene el envío del formulario si hay campos vacíos
-      }
-    }
-  
-    // Si no hay campos vacíos, puedes continuar con el envío del formulario
-    // Aquí podrías realizar otras validaciones necesarias
-  
-    // Envío del formulario
-    e.target.submit();
-  };
-  
+  console.log(selectedProductReference);
 
-  const renderError = (fieldName) => {
-    return errors[fieldName] && (
-      <div className="text-red-500 text-xs mt-1">{errors[fieldName]}</div>
-    );
-  };
-  
   return (
     <section className="pt-6">
       {selectedProductName && (
-        <div className="flex justify-between text-sm lg:text-xl mb-2 py-3 px-3 lg:px-6 font-semibold rounded-2xl bg-gradient-to-l from-secondaryGreen to-primaryBlue">
-          <p>{selectedProductName}</p>
-          <p>
-            {finalPrice.toLocaleString()} {" "}
-            COP
+        <div className="grid justify-between text-sm grid-cols-5 lg:grid-cols-3 lg:text-xl mb-2 gap-12 lg:gap-2 py-3 px-3 lg:px-6 font-semibold rounded-2xl text-left bg-gradient-to-l from-secondaryGreen to-primaryBlue">
+          <p className="col-span-3 lg:col-span-2">{selectedProductName}</p>
+          <p className="col-span-2 lg:col-span-1 flex items-center justify-end p-1">
+            {finalPrice.toLocaleString()} COP
           </p>
         </div>
       )}
       <form
-      onSubmit={handleSubmit}
         className="p-2 text-gray-600 grid grid-cols-1 lg:grid-cols-2 gap-4"
         method="post"
-        action="https://sandbox.checkout.payulatam.com/ppp-web-gateway-payu/"
+        action="https://checkout.payulatam.com/ppp-web-gateway-payu/"
+        target="_blank"
       >
         {FORM_PAYU.map((item, index) => (
           <div className="" key={index}>
             <input
               className="p-2 w-full rounded-sm bg-secondaryDarkBlue border border-gray-200/50 text-white shadow-sm focus-within:ring-1 focus-within:ring-inset focus-within:ring-secondaryGreen"
               name={item.name}
+              title="Ingrese un valor"
               type={item.type}
               placeholder={item.placeholder}
               value={formData[item.name]}
               onChange={handleChange}
             />
-              {renderError(item.name)}
           </div>
         ))}
+        {centecSelect.id === "school_products" && (
+          <input
+            name="extra3"
+            type="text"
+            placeholder="ID Centec del Estudiante"
+            value={formData.name}
+            onChange={handleChange}
+            className="p-2 w-full lg:col-span-2 rounded-sm bg-secondaryDarkBlue border border-gray-200/50 text-white shadow-sm focus-within:ring-1 focus-within:ring-inset focus-within:ring-secondaryGreen"
+          />
+        )}
+        {errorMessage && (
+          <p className="text-red-500 lg:col-span-2">{errorMessage}</p>
+        )}
 
         <select
-          name="description"
-          className="bg-secondaryDarkBlue border border-gray-200/50 text-gray-400 rounded-md text-lg font-semibold p-2 pl-0.5 lg:col-span-2 shadow-sm focus-within:ring-1 focus-within:ring-inset focus-within:ring-secondaryGreen"
+          name="select_course"
+          className="bg-secondaryDarkBlue border border-gray-200/50 text-gray-300 rounded-md text-lg font-semibold p-2 pl-0.5 lg:col-span-2 shadow-sm focus-within:ring-1 focus-within:ring-inset focus-within:ring-secondaryGreen"
           value={selectedProductName}
           onChange={handleProductChange}
         >
-          <option value="" className="text-gray-300">
-            Selecciona un producto
+          <option value="" className="text-gray-400">
+            Selecciona un item
           </option>
-          {PRODUCTS.map((product, index) => (
-            <option className="text-gray-300" key={index} value={product.name}>
+          {centecSelect.items.map((product, index) => (
+            <option className="text-gray-200" key={index} value={product.name}>
               {product.name}
             </option>
           ))}
@@ -198,15 +200,24 @@ export default function FormPayU() {
           />
         )}
 
+        {centecSelect.id === "school_products" && selectedProduct && (
+          <SchoolPaymentMethod
+            product={selectedProduct}
+            onProductSchool={handleProductSchool}
+          />
+        )}
+
         <div className="hidden">
-          <input name="merchantId" type="hidden" value="508029" />
-          <input name="accountId" type="hidden" value="512321" />
+          <input name="merchantId" type="hidden" value="1007567" />
+          <input name="accountId" type="hidden" value="1016348" />
+          <input name="description" type="hidden" value={productDescription} />
           <input
             name="referenceCode"
             type="hidden"
             value={selectedProductReference}
           />
           <input name="amount" type="hidden" value={finalPrice} />
+          <input name="extra2" type="hidden" value={now.toLocaleString()} />
           <input name="tax" type="hidden" value="0" />
           <input name="taxReturnBase" type="hidden" value="0" />
           <input name="currency" type="hidden" value="COP" />
@@ -219,21 +230,34 @@ export default function FormPayU() {
             value="/api/confirmation"
           />
         </div>
-        <input
-          name="submit"
-          type="submit"
-          value="Proceder al pago"
-          className="text-xl font-semibold py-2 hover:scale-105 hover:delay-75 hover:opacity-80 cursor-pointer px-4 bg-primaryBlue text-white rounded-lg lg:col-span-2"
-        />
+
+        {formCompleted ? (
+    <input
+      name="submit"
+      type="submit"
+      value="Proceder al pago"
+      className="text-xl font-semibold py-2 hover:scale-105 hover:delay-75 hover:opacity-80 cursor-pointer px-4 bg-primaryBlue text-white rounded-lg lg:col-span-2"
+    />
+  ) : (
+    <div
+      className="text-xl font-semibold py-2 hover:scale-105 hover:delay-75 text-center hover:opacity-80 cursor-pointer px-4 bg-primaryBlue text-white rounded-lg lg:col-span-2"
+      onClick={handleSubmit}
+    >
+      Proceder al pago
+    </div>
+  )}
       </form>
-      {showDiscountCode && selectedProductName !== "" && (
-        <Coupon
-          coupon={coupon}
-          setCoupon={setCoupon}
-          checkCoupon={CheckCoupon}
-          validCoupon={validCoupon}
-        />
-      )}
+
+      {showDiscountCode &&
+        selectedProductName !== "" &&
+        centecSelect.id === "labor_tecnicians" && (
+          <Coupon
+            coupon={coupon}
+            setCoupon={setCoupon}
+            checkCoupon={CheckCoupon}
+            validCoupon={validCoupon}
+          />
+        )}
     </section>
   );
 }

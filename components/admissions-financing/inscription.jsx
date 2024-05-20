@@ -1,7 +1,5 @@
-/* import ButtonPaypal from "./button_paypal";
-import PaymentForm from "./payment_method"; */
-
-import FormPayU from "../_payU/payU";
+import FormPayU from "@/components/_payU/payU";
+import { LABOR_TECHNICIANS } from "@/utils/payU/labor_tecnicians";
 
 export default function Inscription() {
   return (
@@ -11,42 +9,11 @@ export default function Inscription() {
           <h2 className="text-4xl lg:text-5xl font-bold tracking-tight text-white">
             Inscripción
           </h2>
-         {/*  <p className="mt-2 text-lg text-gray-300">
-            Formulario de inscription [en proceso...]
-          </p> */}
           <div className="max-w-3xl">
-            <FormPayU/>
+            <FormPayU 
+            centecSelect={LABOR_TECHNICIANS}
+            />
           </div>
-          {/* <div className="max-w-3xl">
-            <form
-              className="p-2 text-gray-600 grid grid-cols-1 lg:grid-cols-3 gap-4"
-              action=""
-            >
-              <input
-                className="p-2"
-                type="text"
-                placeholder="Nombre completo"
-              />
-              <input
-                className="p-2 "
-                type="text"
-                placeholder="Correo electrónico"
-              />
-              <input className="p-2" type="text" placeholder="Cedula" />
-              <PaymentForm/>
-              <select className="" name="" id="">
-                <option value="">Posee un Subsidio?</option>
-                <option value="">Si</option>
-                <option value="">No</option>
-              </select>
-              <select className="p-2" name="" id="">
-                <option value="">Seleccione plan de financiación</option>
-                <option value="">Plan uno</option>
-                <option value="">Plan dos</option>
-              </select>
-            </form>
-            <ButtonPaypal />
-          </div> */}
         </div>
       </div>
     </div>

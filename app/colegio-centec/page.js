@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Colegio"
-}
+  title: "Colegio",
+};
 
 import EducationalSubsidies from "@/components/admissions-financing/educational_subsidies";
 import Financing from "@/components/admissions-financing/financing";
@@ -29,6 +29,7 @@ export default function ColegioCentenc() {
       <InstitutionalValues />
       <Inscription />
       <Financing
+        id="adminsiones-y-financiacion"
         iconColor="text-yellow-500"
         textColorDescrip="text-gray-300"
         textColorList="text-white"

@@ -31,11 +31,11 @@ const PaymentForm = ({ product, onFeeSelect, onPaymentMethodChange }) => {
   };
 
   useEffect(() => {
-    if (paymentMethod === "type_one" && product.financing.length > 0) {
+    if (paymentMethod === "plan_de_financiacion_uno" && product.financing.length > 0) {
       setSelectedFee(product.financing[0]);
       onFeeSelect(product.financing[0]);
     } else if (
-      paymentMethod === "type_two" &&
+      paymentMethod === "plan_de_financiacion_dos" &&
       product.financing_two.length > 0
     ) {
       setSelectedFee(product.financing_two[0]);
@@ -63,32 +63,32 @@ const PaymentForm = ({ product, onFeeSelect, onPaymentMethodChange }) => {
         </label>
         <input
           type="radio"
-          id="type_one"
+          id="plan_de_financiacion_uno"
           name="paymentMethod"
-          value="type_one"
-          checked={paymentMethod === "type_one"}
+          value="plan_de_financiacion_uno"
+          checked={paymentMethod === "plan_de_financiacion_uno"}
           onChange={handlePaymentMethodChange}
           className="mr-2 h-4 w-4 border-gray-300 text-secondaryGreen focus:ring-secondaryGreen"
         />
-        <label htmlFor="type_one" className="mr-4">
+        <label htmlFor="plan_de_financiacion_uno" className="mr-4">
           Tipo 1
         </label>
 
         <input
           type="radio"
-          id="type_two"
+          id="plan_de_financiacion_dos"
           name="paymentMethod"
-          value="type_two"
-          checked={paymentMethod === "type_two"}
+          value="plan_de_financiacion_dos"
+          checked={paymentMethod === "plan_de_financiacion_dos"}
           onChange={handlePaymentMethodChange}
           className="mr-2 h-4 w-4 border-gray-300 text-secondaryGreen focus:ring-secondaryGreen"
         />
-        <label htmlFor="type_two" className="mr-4">
+        <label htmlFor="plan_de_financiacion_dos" className="mr-4">
           Tipo 2
         </label>
       </div>
 
-      {paymentMethod === "type_one" && (
+      {paymentMethod === "plan_de_financiacion_uno" && (
         <div>
           <ul>
             {product.financing.map((fee, index) => (
@@ -105,14 +105,14 @@ const PaymentForm = ({ product, onFeeSelect, onPaymentMethodChange }) => {
                   />
                   <label htmlFor={fee.name}>{fee.name}</label>
                 </span>
-                <span className="ml-2">{fee.price}</span>
+                <span className="ml-2">{fee.price.toLocaleString()}</span>
               </li>
             ))}
           </ul>
         </div>
       )}
 
-      {paymentMethod === "type_two" && (
+      {paymentMethod === "plan_de_financiacion_dos" && (
         <div>
           <ul>
             {product.financing_two.map((fee, index) => (
@@ -129,7 +129,7 @@ const PaymentForm = ({ product, onFeeSelect, onPaymentMethodChange }) => {
                   />
                   <label htmlFor={fee.name}>{fee.name}</label>
                 </span>
-                <span className="ml-2">{fee.price}</span>
+                <span className="ml-2">{fee.price.toLocaleString()}</span>
               </li>
             ))}
           </ul>

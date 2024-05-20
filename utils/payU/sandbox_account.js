@@ -1,4 +1,4 @@
-export const MERCHAND_ID = "508029"
-export const ACCOUNT_ID = "512321"
-export const API_KEY = "4Vj8eK4rloUd272L48hsrarnUA"
+export const MERCHAND_ID = "1007567"
+export const ACCOUNT_ID = "1016348"
+export const API_KEY = "z58rjJlt3AT8IEvyluu6L51R9T"
 export const CURRENCY = "COP"

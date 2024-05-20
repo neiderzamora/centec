@@ -38,11 +38,12 @@ export default function Financing({
   textColorDescrip,
   bg,
   version,
+  id
 }) {
   const textFinancing = TEXT_COMPONENTS[version];
   return (
     <div
-      id="financiacion"
+      id={id}
       className={`overflow-hidden py-20 sm:py-32 lg:py-32 ${bg}`}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
