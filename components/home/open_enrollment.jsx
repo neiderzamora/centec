@@ -61,7 +61,7 @@ export default function OpenEnrollment() {
               </div>
             </div>
           </div>
-          <div className="lg:block relative hidden mx-auto max-w-2xl lg:col-span-7 lg:max-w-none xl:col-span-6 my-auto rotate-3 scale-125">
+          <div className="lg:block relative hidden mx-auto max-w-2xl lg:col-span-7 lg:max-w-none xl:col-span-6 my-auto scale-125">
             <Image
               width={500}
               height={500}
@@ -69,7 +69,7 @@ export default function OpenEnrollment() {
               loading="lazy"
               decoding="async"
               data-nimg="1"
-              src="/inscription.png"
+              src="https://educentec.edu.co/inscription.png"
             />
           </div>
         </div>

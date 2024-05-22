@@ -5,7 +5,6 @@ import { PhoneArrowUpRightIcon, Bars3Icon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import { useState } from "react";
 
-import images from "@/assets/images/dir";
 import DialogMovil from "@/components/navbar/dialog_movil";
 
 export default function UpNavbar() {
@@ -17,12 +16,13 @@ export default function UpNavbar() {
           <div className={`relative lg:z-10 flex items-center gap-5 ${mobileMenuOpen ? 'hidden' : ''}`}>
             <Link href="/">
               <Image
+              width={500} height={500}
                 alt="logo"
                 loading="lazy"
                 decoding="async"
                 data-nimg="1"
                 className="w-[14rem]"
-                src={images.lgtp_white}
+                src="https://educentec.edu.co/lgtp_white.png"
               />
             </Link>
           </div>

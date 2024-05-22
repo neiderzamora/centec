@@ -14,23 +14,23 @@ const INF = [
 
 const IMAGES = [
   {
-    url: "/graduates/g.webp",
+    url: "https://educentec.edu.co/graduates/g.webp",
     alt: "egresados centec",
     css: "lg:transform lg:scale-110 lg:-rotate-6"
   },
   {
-    url: "/graduates/g_2.webp",
+    url: "https://educentec.edu.co/graduates/g_2.webp",
     alt: "egresados centec",
     css: "lg:transform lg:scale-110 lg:rotate-6 lg:translate-x-4 lg:translate-y-10"
   },
 
   {
-    url: "/graduates/g_3.webp",
+    url: "https://educentec.edu.co/graduates/g_3.webp",
     alt: "egresados centec",
     css: "lg:transform lg:scale-110 lg:rotate-12"
   },
   {
-    url: "/graduates/g_5.webp",
+    url: "https://educentec.edu.co/graduates/g_5.webp",
     alt: "egresados centec",
     css: "lg:transform lg:-rotate-10 lg:translate-x-10"
   },

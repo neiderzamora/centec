@@ -168,5 +168,5 @@ export const NavigationMobil = [
   },
   { title: "Colegio CENTEC", urlPath: "/colegio-centec", icon: BuildingLibraryIcon },
   { title: "Educación Continua", urlPath: "/educacion-continua", icon: BookOpenIcon },
-  { title: "Innovación y Emprendimiento", urlPath: "/inoovacion-y-emprendimiento", icon: BeakerIcon },
+  { title: "Innovación y Emprendimiento", urlPath: "/innovacion-y-emprendimiento", icon: BeakerIcon },
 ];

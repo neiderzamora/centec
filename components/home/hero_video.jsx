@@ -1,6 +1,6 @@
 export default function HeroHomeVideo() {
     return (
-      <section id="hero_video" className="overflow-hidden bg-white">
+      <section id="hero_video" className="overflow-hidden relative -z-40 bg-white">
         <div className="mx-auto max-w-full">
           <video
             autoPlay

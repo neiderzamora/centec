@@ -1,5 +1,5 @@
 import Image from "next/image";
-import images from "@/assets/images/dir";
+
 import {
   ShieldCheckIcon,
   ScaleIcon,
@@ -78,11 +78,13 @@ export default function Financing({
           <div className="relative mx-auto max-w-2xl mt-6 lg:mt-0 lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
             <Image
               alt=""
+              width={500}
+              height={500}
               loading="lazy"
               decoding="async"
               data-nimg="1"
               className="w-[40rem] rounded-3xl rounded-tl-none rounded-br-none shadow-primaryGreen/50 shadow-2xl"
-              src={images.coin}
+              src="https://educentec.edu.co/admisions-financing/coin.webp"
             />
           </div>
         </div>

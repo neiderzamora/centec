@@ -1,5 +1,5 @@
 import Image from "next/image";
-import images from "@/assets/images/dir";
+
 import { ButtonMoreInf } from "@/components/admissions-financing/button_more_inf";
 import { LIST_CHARACTERISTIC } from "@/utils/educational_subsidies_list";
 import { TEXT_COMPONENTS } from "@/utils/text_components";
@@ -21,11 +21,12 @@ export default function EducationalSubsidies({
           <div className="lg:block relative hidden mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6 my-auto">
             <Image
               alt=""
+              width={500} height={500}
               loading="lazy"
               decoding="async"
               data-nimg="1"
               className="w-[40rem] rounded-3xl rounded-tl-none rounded-br-none shadow-secondaryDarkBlue/50 shadow-2xl"
-              src={images.subsidies}
+              src="https://educentec.edu.co/subsidies.jpg"
             />
           </div>
 

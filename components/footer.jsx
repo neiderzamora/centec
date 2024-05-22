@@ -4,7 +4,6 @@ import { BiLogoFacebookCircle } from "react-icons/bi";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 
 import Image from "next/image";
-import images from "@/assets/images/dir";
 import Link from "next/link";
 
 var currentDate = new Date();
@@ -20,11 +19,13 @@ export default function Footer() {
             <Link href="/">
               <Image
                 alt="logo"
+                width={500}
+                height={500}
                 loading="lazy"
                 decoding="async"
                 data-nimg="1"
                 className="w-[14rem]"
-                src={images.lgtp_white}
+                src="https://educentec.edu.co/lgtp_white.png"
               />
             </Link>
           </div>
@@ -80,7 +81,8 @@ export default function Footer() {
             >
               Sabex Tecnologia
             </Link>{" "}
-            <br />{`© Copyright ${year}. Todos los derechos reservados.`}
+            <br />
+            {`© Copyright ${year}. Todos los derechos reservados.`}
           </p>
         </div>
       </div>

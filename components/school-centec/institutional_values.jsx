@@ -1,7 +1,6 @@
 import Image from "next/image";
 
 import { LIST_VALUES } from "@/utils/instututional_values_list";
-import images from "@/assets/images/dir";
 
 export default function InstitutionalValues() {
   return (
@@ -25,11 +24,13 @@ export default function InstitutionalValues() {
         <div class="relative lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
           <Image
             alt=""
+            width={500}
+            height={500}
             loading="lazy"
             decoding="async"
             data-nimg="1"
             className="w-full opacity-60 saturate-150"
-            src={images.smile_persons_two}
+            src="https://educentec.edu.co/smile_persons_two.jpg"
           />
         </div>
       </div>

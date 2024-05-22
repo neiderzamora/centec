@@ -1,6 +1,6 @@
 export default function HeroSchool() {
   return (
-    <section id="HeroSchool" className="overflow-hidden bg-white">
+    <section id="HeroSchool" className="overflow-hidden relative -z-40 bg-white">
       <div className="mx-auto max-w-full">
         <video
           autoPlay

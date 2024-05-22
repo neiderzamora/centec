@@ -2,9 +2,11 @@
   "name": "centec",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://educentec.edu.co/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -21,6 +23,7 @@
     "react-dom": "^18",
     "react-icons": "^5.0.1",
     "server-only": "^0.0.1",
+    "sharp": "^0.33.4",
     "uuid": "^9.0.1"
   },
   "devDependencies": {

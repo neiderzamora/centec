@@ -1,6 +1,5 @@
-import Image from "next/image";
-import images from "@/assets/images/dir";
 import { FaLink } from "react-icons/fa6";
+import Image from "next/image";
 import Link from "next/link";
 export default function Hero() {
   return (
@@ -53,17 +52,18 @@ export default function Hero() {
                   CENTEC!
                 </li>
               </ul>
-            
             </div>
           </div>
           <div className="relative mx-auto max-w-2xl lg:col-span-7 lg:max-w-none xl:col-span-6 my-auto bg-black/5">
             <Image
+              width={500}
+              height={500}
               alt=""
               loading="lazy"
               decoding="async"
               data-nimg="1"
               className="w-[70rem] -z-50"
-              src={images.smile_persons}
+              src="https://educentec.edu.co/multiple_persons_smile.webp"
             />
           </div>
         </div>

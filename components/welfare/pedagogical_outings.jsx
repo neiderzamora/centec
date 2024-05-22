@@ -17,11 +17,11 @@ const INF = [
 
 const IMAGES = [
   {
-    url: "/groupThree.webp"
+    url: "https://educentec.edu.co/groupThree.webp"
   },
   {
 
-    url: "/groupThree_2.webp"
+    url: "https://educentec.edu.co/groupThree_2.webp"
   },
 ]
 

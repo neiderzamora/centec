@@ -30,7 +30,7 @@ export default function Navbar() {
   return (
     <nav className="hidden lg:block bg-opacity-65 backdrop-filter backdrop-blur-md bg-primaryBlue z-50">
       <div className="mx-auto max-w-7xl lg:px-2 relative flex justify-between py-8">
-        <div className="relative z-10 flex items-center gap-16">
+        <div className="relative z-20 flex items-center gap-16">
           <div className="hidden lg:flex lg:gap-3">
             {CARD.map((item, index) => (
               <div
@@ -52,7 +52,7 @@ export default function Navbar() {
                   <div
                     className={`absolute ${
                       activeSubMenu === index ? "block" : "hidden"
-                    } mt-2 z-10 mx-auto ml-6 space-y-0.5 bg-gradient-to-b from-primaryBlue/20 to-secondaryDarkBlue/50 backdrop-blur-lg bg-opacity-75 shadow-xl hover:delay-0 rounded-r-md rounded-b-md py-4 w-[13rem]`}
+                    } mt-2 z-20 mx-auto ml-6 space-y-0.5 bg-gradient-to-b from-primaryBlue/20 to-secondaryDarkBlue/50 backdrop-blur-lg bg-opacity-75 shadow-xl hover:delay-0 rounded-r-md rounded-b-md py-4 w-[13rem]`}
                   >
                     {item.submenu.map((subItem) => (
                       <a

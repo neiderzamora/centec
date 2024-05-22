@@ -1,9 +1,9 @@
 export const metadata = {
-    title: "Innovación y Emprendimiento"
-  }
+  title: "Innovación y Emprendimiento",
+};
 
 import Image from "next/image";
-import images from "@/assets/images/dir";
+
 import { CheckCircleIcon } from "@heroicons/react/24/solid";
 
 export default function InnovationEntrepreneurship() {
@@ -38,11 +38,13 @@ export default function InnovationEntrepreneurship() {
             <div className="relative mt-10 sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
               <Image
                 alt=""
+                width={500}
+                height={500}
                 loading="lazy"
                 decoding="async"
                 data-nimg="1"
                 className="w-[40rem] rounded-3xl rounded-b-none rounded-l-none bg-white/15"
-                src={images.one_person_masculine}
+                src="https://educentec.edu.co/one_person_masculine.webp"
               />
             </div>
             <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none pt-6 lg:pt-0 xl:col-span-6">

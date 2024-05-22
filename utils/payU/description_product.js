@@ -4,9 +4,9 @@ export function getProductDescription(
   selectedFee,
   paymentMethod,
   centecSelect,
-  producSchool
+  producSchool, formData
 ) {
-  let description = `${productName} --`;
+  let description = `${productName} -- **Cedula: ${formData.extra1}** --`;
   const selectedProduct = centecSelect.items.find(
     (product) => product.name === productName
   );

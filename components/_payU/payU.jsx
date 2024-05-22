@@ -14,8 +14,6 @@ import { handleVerification } from "@/utils/payU/validators";
 import { getProductDescription } from "@/utils/payU/description_product";
 import { calculateFinalPrice } from "@/utils/payU/final_price";
 
-const now = new Date();
-
 export default function FormPayU({ centecSelect }) {
   const [formData, setFormData] = useState({});
 
@@ -41,7 +39,12 @@ export default function FormPayU({ centecSelect }) {
   );
 
   const handleSubmit = () => {
-    handleVerification({ setErrorMessage, formData, FORM_PAYU, setFormCompleted });
+    handleVerification({
+      setErrorMessage,
+      formData,
+      FORM_PAYU,
+      setFormCompleted,
+    });
   };
 
   const hash = useGenerateHash();
@@ -60,7 +63,8 @@ export default function FormPayU({ centecSelect }) {
     selectedFee,
     paymentMethod,
     centecSelect,
-    productSchool
+    productSchool,
+    formData
   );
 
   const handleProductSchool = (selectedProductSchool) => {
@@ -75,7 +79,7 @@ export default function FormPayU({ centecSelect }) {
   };
 
   const CheckCoupon = () => {
-    if (coupon.toUpperCase() === "REGALO") {
+    if (coupon.toUpperCase() === "CENTEC@24") {
       setValidCoupon(true);
     } else {
       setValidCoupon(false);
@@ -217,35 +221,28 @@ export default function FormPayU({ centecSelect }) {
             value={selectedProductReference}
           />
           <input name="amount" type="hidden" value={finalPrice} />
-          <input name="extra2" type="hidden" value={now.toLocaleString()} />
           <input name="tax" type="hidden" value="0" />
           <input name="taxReturnBase" type="hidden" value="0" />
           <input name="currency" type="hidden" value="COP" />
           <input name="signature" type="hidden" value={md5Hash} />
           <input name="test" type="hidden" value="0" />
-          <input name="responseUrl" type="hidden" value="/api/response" />
-          <input
-            name="confirmationUrl"
-            type="hidden"
-            value="/api/confirmation"
-          />
         </div>
 
         {formCompleted ? (
-    <input
-      name="submit"
-      type="submit"
-      value="Proceder al pago"
-      className="text-xl font-semibold py-2 hover:scale-105 hover:delay-75 hover:opacity-80 cursor-pointer px-4 bg-primaryBlue text-white rounded-lg lg:col-span-2"
-    />
-  ) : (
-    <div
-      className="text-xl font-semibold py-2 hover:scale-105 hover:delay-75 text-center hover:opacity-80 cursor-pointer px-4 bg-primaryBlue text-white rounded-lg lg:col-span-2"
-      onClick={handleSubmit}
-    >
-      Proceder al pago
-    </div>
-  )}
+          <input
+            name="submit"
+            type="submit"
+            value="Proceder al pago"
+            className="text-xl font-semibold py-2 hover:scale-105 hover:delay-75 hover:opacity-80 cursor-pointer px-4 bg-primaryBlue text-white rounded-lg lg:col-span-2"
+          />
+        ) : (
+          <div
+            className="text-xl font-semibold py-2 hover:scale-105 hover:delay-75 text-center hover:opacity-80 cursor-pointer px-4 bg-primaryBlue text-white rounded-lg lg:col-span-2"
+            onClick={handleSubmit}
+          >
+            Proceder al pago
+          </div>
+        )}
       </form>
 
       {showDiscountCode &&

@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Educación Continua",
+};
+
 import Courses from "@/components/continuing-education/courses";
 import Diplomats from "@/components/continuing-education/diplomats";
 import Inscription from "@/components/continuing-education/inscription";
