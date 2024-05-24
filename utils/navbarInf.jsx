@@ -80,15 +80,15 @@ export const CARD = [
     urlPath: "/programas-tecnicos-laborales",
     submenu: [
       {
-        title: "Sede villavicencio",
+        title: "Sede Villavicencio",
         urlPath: "/programas-tecnicos-laborales#sede-villavicencio",
       },
       {
-        title: "Sede acacias",
+        title: "Sede Acacias",
         urlPath: "/programas-tecnicos-laborales#sede-acacias",
       },
       {
-        title: "Sede granada",
+        title: "Sede Granada",
         urlPath: "/programas-tecnicos-laborales#sede-granada",
       },
     ],
