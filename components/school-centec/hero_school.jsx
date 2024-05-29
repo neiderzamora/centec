@@ -6,7 +6,7 @@ export default function HeroSchool() {
           autoPlay
           loop
           muted
-          className="h-full lg:h-[48rem] object-cover"
+          className="w-full object-cover"
         >
           <source src="/school_centec.mp4" type="video/mp4" />
         </video>
