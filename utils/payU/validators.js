@@ -17,8 +17,8 @@ export const handleVerification = ({ setErrorMessage, formData, FORM_PAYU, setFo
       return;
     }
     const fullNameValidator = formData.buyerFullName.trim().split(" ");
-    if (fullNameValidator.length < 3) {
-      setErrorMessage('Ingrese su nombre completo en el formato "Nombre Apellido1 Apellido2"');
+    if (fullNameValidator.length < 2) {
+      setErrorMessage('Ingrese su nombre completo en el formato "Nombre Apellido"');
       return;
     }
 
