@@ -111,6 +111,10 @@ export const CARD = [
       urlPath: "/colegio-centec#valores-institucionales",
     },
     {
+      title: "Inscripcion y pagos",
+      urlPath: "/colegio-centec#inscripcion",
+    },
+    {
       title: "Admisiones y financiación",
       urlPath: "/colegio-centec#adminsiones-y-financiacion",
     },

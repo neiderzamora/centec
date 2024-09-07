@@ -8,6 +8,7 @@ import { useRouter } from "next/navigation";
 
 import { Dialog } from "@headlessui/react";
 import { NavigationMobil } from "@/utils/navbarInf";
+import BtnInscription from "./btn_inscription";
 
 export default function DialogMovil({
   mobileMenuOpen,
@@ -15,6 +16,7 @@ export default function DialogMovil({
   bgTwo,
   bgOne,
   bgThree,
+  showBotton
 }) {
   const router = useRouter();
   const handleMenuItemClick = (urlPath) => {
@@ -24,7 +26,7 @@ export default function DialogMovil({
   return (
     <Dialog
       as="div"
-      className="lg:hidden"
+      className={`${showBotton}`}
       open={mobileMenuOpen}
       onClose={setMobileMenuOpen}
     >
@@ -79,6 +81,10 @@ export default function DialogMovil({
                 Contactanos
               </span>
             </Link>
+            <BtnInscription
+            show="inline-block"
+            hidden=""
+            />
           </div>
         </div>
       </Dialog.Panel>

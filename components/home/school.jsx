@@ -48,7 +48,7 @@ export default function School() {
               <ButtonSchool url="/colegio-centec" bgColor="bg-secondaryDarkBlue" />
             </div>
           </div>
-          <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-0 xl:col-span-6">
+          <div className="mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-0 xl:col-span-6">
             <div className="text-3xl text-gray-50 font-medium">
               <h3 className="py-4 sm:py-0"> ¿Por qué Elegirnos?</h3>
               <ul className="space-y-4 text-lg mt-2 font-normal text-gray-300">

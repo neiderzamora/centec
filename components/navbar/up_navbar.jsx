@@ -6,6 +6,8 @@ import Link from "next/link";
 import { useState } from "react";
 
 import DialogMovil from "@/components/navbar/dialog_movil";
+import BtnInscription from "./btn_inscription";
+import Sidebar from "./sidebar";
 
 export default function UpNavbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -27,6 +29,10 @@ export default function UpNavbar() {
             </Link>
           </div>
           <div className="flex items-center gap-6">
+{/*             <BtnInscription
+            show="lg:inline-block"
+            hidden="hidden"
+            /> */}
             <button
               type="button"
               className={`-m-2.5 inline-flex lg:hidden items-center justify-center rounded-md p-2.5 text-gray-50 ${mobileMenuOpen ? 'hidden' : ''}`}
@@ -41,6 +47,7 @@ export default function UpNavbar() {
               bgThree="to-primaryBlue/50"
               mobileMenuOpen={mobileMenuOpen}
               setMobileMenuOpen={setMobileMenuOpen}
+              showBotton='lg:hidden'
             />
             <Link
               className="items-center justify-center rounded-lg py-2 px-3 text-sm font-semibold outline-2 outline-offset-2 transition-colors text-white active:bg-gray-800 active:text-white/80 hidden lg:block"
@@ -58,6 +65,7 @@ export default function UpNavbar() {
                 </span>
               </div>
             </Link>
+            <Sidebar/>
           </div>
         </div>
       </nav>
