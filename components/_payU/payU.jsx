@@ -16,23 +16,21 @@ import { calculateFinalPrice } from "@/utils/payU/final_price";
 
 export default function FormPayU({ centecSelect }) {
   const [formData, setFormData] = useState({});
-
   const [selectedProductName, setSelectedProductName] = useState("");
   const [selectedProductPrice, setSelectedProductPrice] = useState(0);
   const [selectedProductReference, setSelectedProductReference] = useState(0);
-
   const [showDiscountCode, setShowDiscountCode] = useState(false);
-
   const [coupon, setCoupon] = useState("");
   const [validCoupon, setValidCoupon] = useState(false);
   const [selectedFee, setSelectedFee] = useState(null);
-
   const [finalPrice, setFinalPrice] = useState(0);
   const [paymentMethod, setPaymentMethod] = useState("");
   const [productSchool, setProductSchool] = useState("");
   const [formCompleted, setFormCompleted] = useState(false);
-
   const [errorMessage, setErrorMessage] = useState("");
+  const [showCustomValueInput, setShowCustomValueInput] = useState(false);
+  const [customValue, setCustomValue] = useState("");
+  const [customValueError, setCustomValueError] = useState("");
 
   const selectedProduct = centecSelect.items.find(
     (product) => product.name === selectedProductName
@@ -128,14 +126,28 @@ export default function FormPayU({ centecSelect }) {
     setShowDiscountCode(selectedProduct !== "");
   };
 
+  const handleCustomValueChange = (event) => {
+    const newValue = event.target.value;
+    setCustomValue(newValue);
+    if (Number(newValue) > 10000) {
+      setFinalPrice(Number(newValue)); // Actualizar el precio final
+      setCustomValueError(""); // Limpiar el mensaje de error
+    } else {
+      setCustomValueError("El valor debe ser mayor a 10,000 COP.");
+    }
+  };
+
+  const handleToggleCustomValue = () => {
+    setShowCustomValueInput(!showCustomValueInput);
+    setCustomValueError(""); // Limpiar el mensaje de error al abrir el input
+  };
+
   const handleChange = (e) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
     });
   };
-
-  console.log(selectedProductReference);
 
   return (
     <section className="pt-6">
@@ -195,6 +207,34 @@ export default function FormPayU({ centecSelect }) {
             </option>
           ))}
         </select>
+
+        {/* Botón para mostrar el input de valor personalizado */}
+        {selectedProductName != "" && (
+        <button
+          type="button"
+          className="text-xl font-semibold py-2 hover:delay-75 text-center hover:opacity-80 cursor-pointer px-4 bg-primaryBlue text-white rounded-lg lg:col-span-2"
+          onClick={handleToggleCustomValue}
+        >
+          Digitar precio abonado
+        </button>
+        )}
+
+        {/* Input para digitar valor personalizado */}
+        {showCustomValueInput && (
+          <>
+            <input
+              type="number"
+              min="0"
+              placeholder="Ingrese el valor deseado"
+              value={customValue}
+              onChange={handleCustomValueChange}
+              className="p-2 w-full lg:col-span-2 rounded-sm bg-secondaryDarkBlue border border-gray-200/50 text-white shadow-sm focus-within:ring-1 focus-within:ring-inset focus-within:ring-secondaryGreen"
+            />
+            {customValueError && (
+              <p className="text-red-500 lg:col-span-2">{customValueError}</p>
+            )}
+          </>
+        )}
 
         {validCoupon && (
           <PaymentForm

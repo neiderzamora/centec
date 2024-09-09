@@ -62,7 +62,7 @@ const Sidebar = () => {
             onClick={toggleServicesMenu}
             className="flex items-center justify-between py-2 focus:outline-none"
           >
-            Incripciones y pagos
+            Inscripciones y pagos
             {isServicesOpen ? (
               <ChevronUpIcon className="h-5 w-5 text-white" />
             ) : (
