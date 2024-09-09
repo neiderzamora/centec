@@ -6,6 +6,9 @@ import {
   BuildingLibraryIcon,
   BookOpenIcon,
   BeakerIcon,
+  AcademicCapIcon,
+  RectangleGroupIcon
+
 } from "@heroicons/react/24/outline";
 
 export const CARD = [
@@ -93,44 +96,48 @@ export const CARD = [
       },
     ],
   },
-  { title: "Colegio CENTEC", urlPath: "/colegio-centec", submenu: [
-    { 
-      title: "Prospectiva institucional",
-      urlPath: "/colegio-centec#prospectiva-institucional"
-    },
-    {
-      title: "Horizonte institucional",
-      urlPath: "/colegio-centec#horizonte-institucional",
-    },
-    {
-      title: "Principios institucionales",
-      urlPath: "/colegio-centec#principios-institucionales",
-    },
-    {
-      title: "Valores instittucionales",
-      urlPath: "/colegio-centec#valores-institucionales",
-    },
-    {
-      title: "Inscripcion y pagos",
-      urlPath: "/colegio-centec#inscripcion",
-    },
-    {
-      title: "Admisiones y financiación",
-      urlPath: "/colegio-centec#adminsiones-y-financiacion",
-    },
-    {
-      title: "Subsidios educativos",
-      urlPath: "colegio-centec#subsidios-educativos",
-    },
-    {
-      title: "Requisitos de matrícula",
-      urlPath: "colegio-centec#requisitos-de-matricula",
-    },
-    {
-      title: "Gestión académica",
-      urlPath: "colegio-centec#gestion-academica",
-    }
-  ] },
+  {
+    title: "Colegio CENTEC",
+    urlPath: "/colegio-centec",
+    submenu: [
+      {
+        title: "Prospectiva institucional",
+        urlPath: "/colegio-centec#prospectiva-institucional",
+      },
+      {
+        title: "Horizonte institucional",
+        urlPath: "/colegio-centec#horizonte-institucional",
+      },
+      {
+        title: "Principios institucionales",
+        urlPath: "/colegio-centec#principios-institucionales",
+      },
+      {
+        title: "Valores instittucionales",
+        urlPath: "/colegio-centec#valores-institucionales",
+      },
+      {
+        title: "Inscripcion y pagos",
+        urlPath: "/colegio-centec#inscripcion",
+      },
+      {
+        title: "Admisiones y financiación",
+        urlPath: "/colegio-centec#adminsiones-y-financiacion",
+      },
+      {
+        title: "Subsidios educativos",
+        urlPath: "colegio-centec#subsidios-educativos",
+      },
+      {
+        title: "Requisitos de matrícula",
+        urlPath: "colegio-centec#requisitos-de-matricula",
+      },
+      {
+        title: "Gestión académica",
+        urlPath: "colegio-centec#gestion-academica",
+      },
+    ],
+  },
 
   {
     title: "Educación Continua",
@@ -158,7 +165,11 @@ export const CARD = [
 ];
 
 export const NavigationMobil = [
-  { title: "Nuestra Institución", urlPath: "/nuestra-institucion", icon: UserGroupIcon },
+  {
+    title: "Nuestra Institución",
+    urlPath: "/nuestra-institucion",
+    icon: UserGroupIcon,
+  },
   { title: "Bienestar", urlPath: "/bienestar", icon: UsersIcon },
   {
     title: "Adminisiones y Financiación",
@@ -170,7 +181,30 @@ export const NavigationMobil = [
     urlPath: "/programas-tecnicos-laborales",
     icon: QueueListIcon,
   },
-  { title: "Colegio CENTEC", urlPath: "/colegio-centec", icon: BuildingLibraryIcon },
-  { title: "Educación Continua", urlPath: "/educacion-continua", icon: BookOpenIcon },
-  { title: "Innovación y Emprendimiento", urlPath: "/innovacion-y-emprendimiento", icon: BeakerIcon },
+  {
+    title: "Colegio CENTEC",
+    urlPath: "/colegio-centec",
+    icon: BuildingLibraryIcon,
+  },
+  {
+    title: "Educación Continua",
+    urlPath: "/educacion-continua",
+    icon: BookOpenIcon,
+  },
+  {
+    title: "Innovación y Emprendimiento",
+    urlPath: "/innovacion-y-emprendimiento",
+    icon: BeakerIcon,
+  },
+  {
+    title: "Correo Instutucional",
+    urlPath: "https://cpanel4-co.conexcol.net:2096/",
+    icon: AcademicCapIcon,
+  },
+  {
+    title: "Q10",
+    urlPath: "https://site2.q10.com/login?ReturnUrl=%2F&aplentId=15fad4b1-aad7-44e5-9b6d-b6c7f55487db",
+    icon: RectangleGroupIcon
+  }
+  
 ];
